@@ -16,3 +16,10 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Intro text, name: intro, widget: text}
           - {label: Image, name: image, widget: image}
+      - label: "Training Page"
+        name: "training"
+        file: "content/training.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro text, name: intro, widget: text}
+          - {label: Image, name: image, widget: image}

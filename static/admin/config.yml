@@ -11,7 +11,7 @@ collections:
     files:
       - label: "Home Page"
         name: "home"
-        file: "../src/pages/index.js"
+        file: "content/home.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro text, name: intro, widget: text}

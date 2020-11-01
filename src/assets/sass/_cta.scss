@@ -1,0 +1,48 @@
+.cta {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  .cta-inner {
+    color: white;
+    position: relative;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: fade-out($white, 0.15);
+    font-size: 18px;
+    &:before {
+      border-radius: 0.5rem;
+      content: '';
+      position: absolute;
+      top: -0.5rem;
+      bottom: -0.5rem;
+      left: -0.5rem;
+      right: -0.5rem;
+      border: 0.25rem solid fade-out($white, 0.15);
+      z-index: -1;
+    }
+  }
+}
+.option-two  {
+  background: #888869;
+  font-size: 18px;
+}
+.option-three {
+  background: #6b6b44;
+  font-family: 'Handlee', cursive;
+  font-size: 18px;
+}
+.option-four {
+  background: #586b44;
+  font-family: 'Antic Didone', serif;
+  font-size: 18px;
+}
+.option-five {
+  background: #6b6444;
+  font-family: 'Delius Swash Caps', cursive;
+  font-size: 18px;
+}
+.option-six {
+  background: #9b9268 ;
+  font-family: 'Comfortaa', cursive;
+  font-size: 18px;
+}

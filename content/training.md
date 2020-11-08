@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 
 path: testing-101
 date: 2020-10-21T18:05:45.441Z
@@ -12,3 +13,9 @@ George: you ever think of running for class president? Thanks. That's Strickland
 Uh, Doc. Doc, I'm from the future. I came here in a time machine that you invented. Now, I need your help to get back to the year 1985. Marty, one rejection isn't the end of the world. I'd like you to meet my good friend George McFly. After I fell off my toilet, I drew this.
 
 That's good advice, Marty. Nothing. Yeah, I'll keep that in mind. Take that you mutated son-of-a-bitch. My pine, why you. You space bastard, you killed a pine. I'm sure that in 1985, plutonium is available at every corner drug store, but in 1955, it's a little hard to come by. Marty, I'm sorry, but I'm afraid you're stuck here.
+=======
+title: testing 123
+intro: testintesting
+image: assets/906.704.jpeg
+---
+>>>>>>> 1d607fa944c54daebc9d658064ecc763cf2774b0

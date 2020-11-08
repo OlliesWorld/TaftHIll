@@ -38,9 +38,23 @@
 .contact-img {
   width: 55%;
 }
+.form-cont {
+  background-image: url('../images/Anna.jpg');
+  background-repeat: no-repeat;
+  background-position: contain;
+  width: 90%;
+  margin: 0 auto;
+}
 @media (min-width: 600px) {
   .contact-img {
-    width: 85%;
+    width: 55%;
+  }
+  .form-cont {
+    background-image: url('../images/Anna.jpg');
+    background-repeat: no-repeat;
+    background-position: contain;
+    width: 100%;
+    margin-left: 20px;
   }
 }
 .logo {

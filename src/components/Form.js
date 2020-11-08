@@ -5,15 +5,17 @@ import '../assets/sass/Form.css'
 export default ({
     name = 'Contact',
     subject = '', // optional subject of the notification email
-    action = ''
+
 }) => (
+
         <form
-            className='Form'
-            name={name}
-            action={action}
-            data-netlify=''
-            data-netlify-honeypot='_gotcha'
+            className="Form"
+            netlify-honeypot="bot-field"
+            data-netlify="true"
+            name="Form"
+            method="post"
         >
+            <label className="Form--Title">Send us a Message</label>
             <label className='Form--Label'>
                 <input
                     className='Form--Input'

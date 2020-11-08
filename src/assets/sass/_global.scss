@@ -23,10 +23,17 @@ p {
 }
 
 .site-heading {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  background-image: url('../images/thalogo.png');
+  background-position: 2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  padding-bottom: 5rem;
   text-transform: uppercase;
   line-height: 1;
+  width: 100%;
 
   @include heading-font;
   .site-heading-upper {

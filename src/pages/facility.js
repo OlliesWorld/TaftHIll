@@ -1,11 +1,11 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import Slider from '../components/slides';
+
 
 
 const IndexPage = () => (
-  <Layout activeLink="store">
+  <Layout >
     <section className="page-section">
       <div className="container pb-sm-5">
         <div className="row">
@@ -49,47 +49,14 @@ const IndexPage = () => (
                   <span className="ml-auto">Run & group pen boarding options</span>
                 </li>
               </ul>
-              {/* <p className="address mb-5">
-                <em>
-                  <strong>1012 N Taft Hill Rd</strong>
-                  <br />
-                  Fort Collins, Colorado
-                </em>
-              </p>
-              <p className="mb-0">
 
-                <em>For more information or to schedule a tour:</em>
-
-
-              </p> */}
-              <div className="intro-button mx-auto">
-                <a className="btn btn-primary btn-xl" href="/contact">
-                  Contact Us Today!
-              </a>
-              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section className="page-section about-heading">
-      <div className="container">
 
-        <div className="col-xl-9 col-lg-10 mx-auto">
-
-          <h2 className="section-heading mb-4">
-            <span className="section-heading-upperlower">
-              Testimonials
-                  </span>
-            
-          </h2>
-          <Slider />
-
-
-        </div>
-      </div>
-    </section>
   </Layout >
 );
 

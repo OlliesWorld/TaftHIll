@@ -2,15 +2,18 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import barn from '../assets/images/barn.jpeg';
-import rainbow from '../assets/images/rainbow.jpg';
+import pens from '../assets/images/pens.jpg';
+import pen from '../assets/images/Pen.jpg';
+import penlong from '../assets/images/Penlength.jpg';
+import runs from '../assets/images/runs.jpg';
+
 const IndexPage = () => (
   <Layout activeLink="about">
     <section className="page-section about-heading">
       <div className="container">
         <img
           className="intro-img img-fluid mb-3 mb-lg-0 rounded"
-          src={barn}
+          src={pens}
           alt=""
         />
         <div className="about-heading-content">
@@ -41,9 +44,21 @@ const IndexPage = () => (
           </div>
         </div>
         <img
+          className="intro-img rounded right-side  mt-n5 "
+
+          src={penlong}
+          alt=""
+        />
+        <img
           className="intro-img rounded right-side offset-6 mt-n5 "
 
-          src={rainbow}
+          src={pen}
+          alt=""
+        />
+        <img
+          className="intro-img rounded right-side  mt-n5 "
+
+          src={runs}
           alt=""
         />
       </div>

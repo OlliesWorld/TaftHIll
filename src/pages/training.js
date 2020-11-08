@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-
+// import training from '../../content/training.md';
 
 import cayla from '../assets/images/cayla.jpg';
 
@@ -48,9 +48,10 @@ const IndexPage = () => (
                 <span className="section-heading-upper">
                   Delicious Treats, Good Eats
                 </span>
-                <span className="section-heading-lower">
+                {/* <ReactMarkdown source={training} /> */}
+                {/* <span className="section-heading-lower">
                   Bakery &amp; Kitchen
-                </span>
+                </span> */}
               </h2>
             </div>
           </div>

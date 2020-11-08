@@ -25,13 +25,21 @@
 .font-weight-light {
   font-weight: 100 !important;
 }
-.sliderimg{
+.sliderimg {
   width: 100%;
   height: 500px;
   object-fit: contain;
 }
-.sliderHeroimg{
+.sliderHeroimg {
   width: 100%;
   height: 500px;
   object-fit: cover;
+}
+.contact-img {
+  width: 55%;
+}
+@media (min-width: 600px) {
+  .contact-img {
+    width: 85%;
+  }
 }

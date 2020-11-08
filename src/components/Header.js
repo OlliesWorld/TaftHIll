@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import config from '../../config';
 import { Link } from 'gatsby';
+
+import logo from "../assets/images/logo (1).svg"
+
 export default class Header extends Component {
   constructor(props) {
     super(props);
@@ -18,6 +21,11 @@ export default class Header extends Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
         <div className="container">
+          <img
+            className="intro-img img-fluid mb-3 mb-lg-0 rounded"
+            src={logo}
+            alt="Taft Hill Acres Logo"
+          />
           <a
             className="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none"
             href="/#"

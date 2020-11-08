@@ -12,11 +12,13 @@
     },
     "dependencies": {
         "gatsby": "^2.20.2",
+        "gatsby-cli": "^2.12.117",
         "gatsby-plugin-manifest": "^2.4.37",
         "gatsby-plugin-netlify-cms": "^4.3.17",
         "gatsby-plugin-offline": "^3.2.38",
         "gatsby-plugin-react-helmet": "^3.2.0",
         "gatsby-plugin-sass": "^2.3.22",
+        "gatsby-remark-relative-images-v2": "^0.1.5",
         "netlify-cms-app": "^2.13.1",
         "node-sass": "^4.14.1",
         "react": "^16.13.1",
@@ -24,6 +26,7 @@
         "react-dom": "^16.13.1",
         "react-helmet": "^5.2.1",
         "react-images": "^1.1.0",
+        "react-markdown": "^5.0.2",
         "react-scrollspy": "^3.4.2",
         "smoothscroll-polyfill": "^0.4.4"
     },

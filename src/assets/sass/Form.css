@@ -4,7 +4,7 @@
   align-items: flex-end;
   justify-content: center;
   max-width: 500px;
-  margin: 50px;
+  margin: 50px 90px;
 }
 
 .Form > * + * {
@@ -114,12 +114,21 @@
 }
 
 .Form--Input[disabled],
-.Form--SubmitButton[disabled] {
-  opacity: 0.4;
-  pointer-events: none;
+.Form--SubmitButton {
+  /* opacity: 0.4; */
+  /* pointer-events: none; */
   cursor: progress;
+  background: #ffcc00;
+  border-color: darken(#1b2911, 10%);
+  border-radius: 0.25rem;
+  padding: 10px 15px;
+  width: 200px;
 }
-
+.Form--SubmitButton:hover {
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
 .Form--Input::placeholder {
   color: #364958;
 }

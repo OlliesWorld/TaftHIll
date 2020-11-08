@@ -2,13 +2,14 @@
   background-color: fade-out(#6b6b44, 0.1);
   @include heading-font;
   .navbar-brand {
-    color: rgb(59, 96, 100);
+    color: #1b2911;
+    font-size: 2rem;
   }
   .navbar-nav {
     .nav-item {
       .nav-link {
         color: fade-out($white, 0.3);
-        
+
         font-weight: 800;
       }
       &.active {

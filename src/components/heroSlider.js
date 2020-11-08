@@ -5,11 +5,11 @@ import AliceCarousel from 'react-alice-carousel';
 import pen from "../assets/images/Pen.jpg"
 import club from "../assets/images/SerorityClub.jpg"
 import snowy from "../assets/images/Snowy.jpg"
-import sunsetcolor from "../assets/images/sunsetColor.jpg"
+import sunsetcolor from "../assets/images/SunsetColor.jpg"
 import rainbow from "../assets/images/rainbow.jpg"
 import sunset from "../assets/images/sunset.jpg"
 import teens from "../assets/images/Teens.jpg"
-import Trio from "../assets/images/Trio.jpg"
+import Trio from "../assets/images/trio.jpg"
 
 export default function HeroSlider() {
   return (

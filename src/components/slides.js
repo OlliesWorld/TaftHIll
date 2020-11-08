@@ -45,11 +45,7 @@ export default function Slider() {
 
         </div>
 
-        {/* <img
-              className="sliderimg"
-              src={Trio}
-              alt="3 Horse looking at camera"
-            /> */}
+
         <div className="intro-text left-0 text-center bg-faded p-5 rounded">
           <p className="mb-3">
             I have had my horse here for two years and he has never been happier! So much care and effort goes into grouping the horses together  appropriately in their pens. Everyone is extremely friendly and I am currently working with Taylor to start my horse.  The progress he has made has been incredible!  Taylor is great to work with, she truly cares about building the proper foundation on my young horse.  I can't wait to continue to train with her!

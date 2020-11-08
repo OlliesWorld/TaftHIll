@@ -9,7 +9,7 @@ import sunsetcolor from "../assets/images/sunsetColor.jpg"
 import snowbarn from "../assets/images/SnowyBarn.jpg"
 import sunset from "../assets/images/sunset.jpg"
 import teens from "../assets/images/Teens.jpg"
-import trio from "../assets/images/Trio.jpg"
+import Trio from "../assets/images/Trio.jpg"
 
 export default function HeroSlider() {
   return (
@@ -23,7 +23,7 @@ export default function HeroSlider() {
       <img src={pen} className="sliderHeroimg" alt="test" />
       <img src={sunset} className="sliderHeroimg" alt="test" />
       <img src={teens} className="sliderHeroimg" alt="test" />
-      <img src={trio} className="sliderHeroimg" alt="test" />
+      <img src={Trio} className="sliderHeroimg" alt="test" />
     </AliceCarousel>
 
   )

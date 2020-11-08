@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import pens from '../assets/images/pens.jpg';
+
 import pen from '../assets/images/Pen.jpg';
 import penlong from '../assets/images/Penlength.jpg';
 import runs from '../assets/images/runs.jpg';
@@ -13,7 +13,7 @@ const IndexPage = () => (
       <div className="container">
         <img
           className="intro-img img-fluid mb-3 mb-lg-0 rounded"
-          src={pens}
+          src={pen}
           alt=""
         />
         <div className="about-heading-content">

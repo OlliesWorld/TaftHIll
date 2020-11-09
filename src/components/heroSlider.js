@@ -6,7 +6,7 @@ import pen from "../assets/images/Pen.jpg"
 import club from "../assets/images/SerorityClub.jpg"
 import snowy from "../assets/images/Snowy.jpg"
 import sunsetcolor from "../assets/images/SunsetColor.jpg"
-import rainbow from "../assets/images/rainbow.jpg"
+import foggy from "../assets/images/foggy.jpg"
 import sunset from "../assets/images/sunset.jpg"
 import teens from "../assets/images/Teens.jpg"
 import Trio from "../assets/images/trio.jpg"
@@ -19,7 +19,7 @@ export default function HeroSlider() {
       <img src={snowy} className="sliderHeroimg" alt="test" />
       <img src={club} className="sliderHeroimg" alt="test" />
       <img src={sunsetcolor} className="sliderHeroimg" alt="test" />
-      <img src={rainbow} className="sliderHeroimg" alt="test" />
+      <img src={foggy} className="sliderHeroimg" alt="test" />
       <img src={pen} className="sliderHeroimg" alt="test" />
       <img src={sunset} className="sliderHeroimg" alt="test" />
       <img src={teens} className="sliderHeroimg" alt="test" />

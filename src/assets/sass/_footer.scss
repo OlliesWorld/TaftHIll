@@ -1,9 +1,15 @@
 .footer {
   background-color: fade-out($secondary, 0.1);
   color: whitesmoke;
-  font-size: 1.5rem;
+  font-size: 1rem;
   background-image: url('../images/Logo-THA.png');
   background-position: right;
   background-repeat: no-repeat;
-  background-size: 16rem;
+  background-size: 8rem;
+}
+@media (min-width: 600px) {
+  .footer {
+    background-size: 16rem;
+    font-size: 1.8rem;
+  }
 }

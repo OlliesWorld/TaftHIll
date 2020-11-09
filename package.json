@@ -11,6 +11,7 @@
         "email": "anubhav.srivastava00@gmail.com"
     },
     "dependencies": {
+        "@react-yuki/ui": "0.0.38",
         "gatsby": "^2.25.3",
         "gatsby-cli": "^2.12.117",
         "gatsby-plugin-manifest": "^2.5.2",
@@ -25,10 +26,12 @@
         "react-alice-carousel": "^2.0.1",
         "react-dom": "^16.13.1",
         "react-helmet": "^5.2.1",
+        "react-id-swiper": "^4.0.0",
         "react-images": "^1.1.0",
         "react-markdown": "^5.0.2",
         "react-scrollspy": "^3.4.2",
-        "smoothscroll-polyfill": "^0.4.4"
+        "smoothscroll-polyfill": "^0.4.4",
+        "swiper": "^6.3.5"
     },
     "scripts": {
         "develop": "gatsby develop",

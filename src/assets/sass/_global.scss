@@ -23,13 +23,8 @@ p {
 }
 
 .site-heading {
-  background-image: url('../images/Logo-THA.png');
-  background-position: 10%;
-  background-repeat: no-repeat;
-  background-size: contain;
   margin-top: 2rem;
   margin-bottom: 2rem;
-
   padding-bottom: 5rem;
   text-transform: uppercase;
   line-height: 1;
@@ -66,7 +61,6 @@ p {
     font-size: 3rem;
     font-weight: 100;
     color: $primary;
-    text-decoration: underline;
   }
 }
 
@@ -86,4 +80,9 @@ p {
   font-size: 3rem;
   font-weight: 100;
   text-decoration: underline;
+}
+.facility-img {
+  float: right;
+  margin-left: 20px;
+  width: 30%;
 }

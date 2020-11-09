@@ -8,7 +8,7 @@ import penlength from '../assets/images/Penlength.jpg'
 import runs from '../assets/images/runs.jpg'
 import wash from '../assets/images/washrack.jpg'
 import haybarn from '../assets/images/haybarn.jpg'
-import cayla from '../assets/images/caylasroundpen.jpg';
+import cayla from '../assets/images/Caylasroundpen.jpg';
 
 const IndexPage = () => (
   <Layout >

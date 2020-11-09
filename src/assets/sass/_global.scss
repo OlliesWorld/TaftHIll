@@ -60,7 +60,7 @@ p {
     display: block;
     font-size: 3rem;
     font-weight: 100;
-    color: $primary;
+    color: $secondary;
   }
 }
 
@@ -84,5 +84,6 @@ p {
 .facility-img {
   float: right;
   margin-left: 20px;
-  width: 30%;
+
+  width: 24%;
 }

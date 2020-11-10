@@ -3,17 +3,19 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 
-import pen from '../assets/images/Pen.jpg';
-import penlong from '../assets/images/Penlength.jpg';
-import runs from '../assets/images/runs.jpg';
+import playdate from '../assets/images/Babyplaydate.jpg';
+import bale from '../assets/images/Bale.jpg';
+import kitties from '../assets/images/barnkitties.jpg';
+import path from '../assets/images/bikepath2.jpg';
+import foggy2 from '../assets/images/foggy2.jpg';
 
 const IndexPage = () => (
   <Layout activeLink="about">
     <section className="page-section about-heading">
       <div className="container">
         <img
-          className="intro-img img-fluid mb-3 mb-lg-0 rounded"
-          src={pen}
+          className="sliderimg img-fluid mb-3 mb-lg-0 rounded"
+          src={playdate}
           alt=""
         />
         <div className="about-heading-content">
@@ -44,21 +46,27 @@ const IndexPage = () => (
           </div>
         </div>
         <img
-          className="intro-img rounded right-side  mt-n5 "
+          className="sliderimg rounded right-side  mt-n5 "
 
-          src={penlong}
+          src={path}
           alt=""
         />
         <img
-          className="intro-img rounded right-side offset-6 mt-n5 "
+          className=" push-left rounded mt-3 "
 
-          src={pen}
+          src={foggy2}
           alt=""
         />
         <img
-          className="intro-img rounded right-side  mt-n5 "
+          className="push-right rounded right-side offset-4 mt-n5 "
 
-          src={runs}
+          src={bale}
+          alt=""
+        />
+        <img
+          className="sliderimg rounded right-side  mt-n5 "
+
+          src={kitties}
           alt=""
         />
       </div>

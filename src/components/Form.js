@@ -14,7 +14,7 @@ export default ({
             data-netlify-recaptcha="true"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
-
+            className="Form"
             action="/success"
         >
             <label htmlFor="nameInput" className="Form--Title">Send us a Message</label>

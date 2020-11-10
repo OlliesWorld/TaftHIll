@@ -4503,6 +4503,8 @@ input[type='button'].btn-block {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  margin-left: 290px;
+  margin-top: -50px;
 }
 
 .navbar-toggler:hover,

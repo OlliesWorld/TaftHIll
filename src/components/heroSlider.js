@@ -10,12 +10,13 @@ import foggy from "../assets/images/foggy.jpg"
 import sunset from "../assets/images/sunset.jpg"
 import teens from "../assets/images/Teens.jpg"
 import Trio from "../assets/images/trio.jpg"
+import sign from "../assets/images/frontsign.jpg"
 
 export default function HeroSlider() {
   return (
 
     <AliceCarousel autoPlay autoPlayInterval="2000" infinite>
-
+      <img src={sign} className="sliderHeroimg" alt="test" />
       <img src={snowy} className="sliderHeroimg" alt="test" />
       <img src={club} className="sliderHeroimg" alt="test" />
       <img src={sunsetcolor} className="sliderHeroimg" alt="test" />

@@ -22,13 +22,13 @@ html {
   margin-right: auto;
   margin-left: auto;
 }
-.container-auto {
+.-auto {
   display: flex;
   margin: 0 auto;
   width: 100%;
 }
 @media (min-width: 576px) {
-  .container {
+  . {
     max-width: 540px;
   }
 }

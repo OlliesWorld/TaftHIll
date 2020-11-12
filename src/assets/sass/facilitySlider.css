@@ -107,4 +107,11 @@
     margin-top: 0;
     margin-right: 0;
   }
+  .slides img {
+    margin-top: 1rem;
+  }
+  .thumbnails img {
+    width: 25vmin;
+    height: 15vmin;
+  }
 }

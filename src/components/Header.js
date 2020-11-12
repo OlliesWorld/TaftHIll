@@ -97,6 +97,7 @@ export default class Header extends Component {
                   Testimonials
                 </Link>
               </li>
+
               <li
                 className={`nav-item px-lg-2 ${activeLink === 'contact' ? 'active' : ''
                   }`}
@@ -108,7 +109,9 @@ export default class Header extends Component {
                   Contact Us
                 </Link>
               </li>
+
             </ul>
+
           </div>
         </div>
       </nav>

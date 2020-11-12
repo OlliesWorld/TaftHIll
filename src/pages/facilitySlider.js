@@ -12,7 +12,7 @@ import haybarn from '../assets/images/haybarn.jpg'
 // import cayla from '../assets/images/Caylasroundpen.jpg';
 
 const IndexPage = () => (
-  <Layout >
+  <Layout activeLink="facility">
     <section className="page-section">
 
       <div className="container pb-sm-5">

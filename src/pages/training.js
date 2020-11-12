@@ -7,7 +7,7 @@ import Layout from '../components/Layout';
 import cayla from '../assets/images/cayla.jpg';
 
 const IndexPage = () => (
-  <Layout>
+  <Layout activeLink="training">
     <section className="page-section">
       <div className="container">
         {/* <div className="product-item">*/}

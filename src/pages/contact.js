@@ -5,7 +5,7 @@ import ContactFormPage from '../components/Form';
 
 
 const ContactPage = () => (
-    <Layout activeLink="home">
+    <Layout activeLink="contact">
         <section className="page-section">
 
 

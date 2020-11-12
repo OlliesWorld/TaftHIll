@@ -15,7 +15,7 @@ export default ({
             data-netlify="true"
             data-netlify-honeypot="bot-field"
             className="Form"
-            action="/success"
+            action="/thanks"
         >
             <label htmlFor="nameInput" className="Form--Title">Send us a Message</label>
             <label className='Form--Label'>

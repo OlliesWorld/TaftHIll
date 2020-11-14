@@ -2,12 +2,13 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-
+import bridge from '../assets/images/bridgearena.jpg'
 import playdate from '../assets/images/Babyplaydate.jpg';
 import bale from '../assets/images/Bale.jpg';
 import kitties from '../assets/images/barnkitties.jpg';
 import path from '../assets/images/bikepath2.jpg';
 import foggy2 from '../assets/images/foggy2.jpg';
+import riders from '../assets/images/riders.jpg'
 
 const IndexPage = () => (
   <Layout activeLink="about">
@@ -15,7 +16,7 @@ const IndexPage = () => (
       <div className="container">
         <img
           className="sliderimg img-fluid mb-3 mb-lg-0 rounded"
-          src={playdate}
+          src={bridge}
           alt=""
         />
         <div className="about-heading-content">
@@ -29,30 +30,30 @@ const IndexPage = () => (
                   <span className="section-heading-lower">About Taft Hill Acres</span>
                 </h2>
                 <p className="mb-3">
-                  Taft Hill Acres was established in 2012. It is owned and operated by Megan and Rene Lizarraga. Megan has been involved with horses her whole life, and received a B.S. in Equine Science from CSU in 1992. She spent a year training in England with the British Horse Society and has worked for several prominent trainers in Northern Colorado.
+                  Most horses at Taft Hill Acres live in herds of 2 to 5 horses. All horses have free access to high quality grass hay, automatic heated waterers, and adequate shelter. All pens have safe Bayco fencing and are cleaned daily. We pride ourselves on having one of the cleanest horse farms on the front range.  We use Haychix slow feed nets and hay is fed from Hayhut feeders to ensure hay is fresh and dry at all times. Free feeding horses is ideal because horses can graze all day as nature intended but it also cuts down greatly on negative herd interactions. The horses are happy and peaceful in their herds at our Fort Collins boarding facility.
                 </p>
                 <p className="mb-3">
-                  Taft Hill Acres is  located on 10 beautiful acres close to CSU and old town. We strive to create an atmosphere that is friendly and relaxed with the health and happiness of the horses as our number one priority.</p>
+                  Taft Hill Acres provides partial and full care options to meet individual’s needs. All horse regardless of board option are cared for and overseen by the farm. We have approximately 3 acres of grass for turnout and have options for turnout, blanketing and grain services. We provide group  pens as well as have a limited number of individual runs. </p>
 
                 <p className="mb-3">
-                  Our clients are a mix of College
-                  students and adults, western, english,
-                  competitive and  pleasure riders.
-                  It 's a small farm feeling with only 30
-                  horses on the property.
+                  Fort Collins has one of the best bike/equestrian trail systems on the front range. Taft Hill Acres as direct access to the trail system. You can actually ride your horse to Old Town if you want! Several remote riding opportunities are available with just a short trailer drive.
                 </p>
               </div>
             </div>
           </div>
         </div>
         <img
-          className="sliderimg rounded right-side  mt-n5 "
-
+          className=" rounded push-right  mt-n5 "
           src={path}
           alt=""
         />
         <img
-          className=" push-left rounded mt-3 "
+          className="rounded push-left  "
+          src={riders}
+          alt=""
+        />
+        <img
+          className=" push-left rounded  "
 
           src={foggy2}
           alt=""
@@ -67,6 +68,12 @@ const IndexPage = () => (
           className="sliderimg rounded right-side  mt-n5 "
 
           src={kitties}
+          alt=""
+        />
+        <img
+          className="sliderimg rounded right-side  mt-n5 "
+
+          src={playdate}
           alt=""
         />
       </div>

@@ -2382,7 +2382,7 @@ html {
 }
 
 .m-auto {
-  margin: auto !important;
+  margin: 0 auto !important;
 }
 
 .mt-auto,

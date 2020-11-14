@@ -69,7 +69,7 @@ const IndexPage = () => (
               <p className="mb-0 paragraph">
                 Our goal is to help change the story of American Mustangs in the West by providing professional under saddle training and increase adoptions of these amazing horses.
               </p>
-              <div className="offset-4 mt-2">
+              <div className="offset-2 mt-2">
                 <a className="btn btn-outline-dark" href="https://www.wildrosemagic.org/" target="/">
 
                   <img

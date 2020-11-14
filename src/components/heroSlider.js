@@ -1,6 +1,6 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
-// import 'react-alice-carousel/lib/alice-carousel.css';
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 import pen from "../assets/images/Pen.jpg"
 import club from "../assets/images/SerorityClub.jpg"
@@ -15,7 +15,7 @@ import Trio from "../assets/images/trio.jpg"
 export default function HeroSlider() {
   return (
 
-    <AliceCarousel autoPlay autoPlayInterval="2000" infinite>
+    <AliceCarousel autoPlay autoPlayInterval="2000" autoHeight infinite>
       <img src={teens} className="sliderHeroimg" alt="test" />
       <img src={snowy} className="sliderHeroimg" alt="test" />
       <img src={club} className="sliderHeroimg" alt="test" />

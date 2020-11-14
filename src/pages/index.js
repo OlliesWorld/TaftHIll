@@ -13,7 +13,7 @@ const IndexPage = () => (
 
           <HeroSlider />
         </div>
-        <div className="text-center bg-faded p-5 rounded ">
+        <div className="text-center bg-faded p-4 rounded ">
           <h2 className="section-heading mb-2">
             <span className="section-heading-upper">Our priority</span>
             <span className="section-heading-lower">Happy and Healthy Horse</span>

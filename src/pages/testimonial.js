@@ -5,7 +5,7 @@ import Slider from '../components/slides';
 
 const TestimonialPage = () => (
     <Layout activeLink="testimonial">
-        <section className="container mt-5">
+        <section className="container mt-2">
             <Slider />
 
         </section>

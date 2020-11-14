@@ -15,7 +15,7 @@ const IndexPage = () => (
     <section className="page-section about-heading">
       <div className="container">
         <img
-          className="sliderimg img-fluid mb-3 mb-lg-0 rounded"
+          className="sliderimg img-fluid mb-1 mb-lg-0 rounded"
           src={bridge}
           alt=""
         />

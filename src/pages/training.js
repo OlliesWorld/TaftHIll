@@ -11,7 +11,6 @@ const IndexPage = () => (
   <Layout activeLink="training">
     <section className="page-section">
       <div className="container">
-        {/* <div className="product-item">*/}
         <div className=" d-flex">
           <div className="bg-faded p-5 d-flex ml-auto rounded">
             <h2 className="section-heading mb-0">
@@ -36,7 +35,7 @@ const IndexPage = () => (
               </p>
           </div>
         </div>
-        {/* </div>*/}
+
       </div>
     </section>
 

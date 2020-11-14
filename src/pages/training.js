@@ -2,10 +2,9 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-// import training from '../../content/training.md';
 
 import cayla from '../assets/images/cayla.jpg';
-import caylacross from '../assets/images/cayla-cross.jpg'
+import caylacross from '../assets/images/caylacross.jpg'
 import wrlogo from '../assets/images/wr_logo_web.png'
 
 const IndexPage = () => (
@@ -70,16 +69,18 @@ const IndexPage = () => (
               <p className="mb-0 paragraph">
                 Our goal is to help change the story of American Mustangs in the West by providing professional under saddle training and increase adoptions of these amazing horses.
               </p>
-              <img
-                className="mx-auto d-flex rounded img-fluid mb-3"
-                src={wrlogo}
-                alt=""
-              />
-              <div className="intro-button pt-5">
-                <a className="btn btn-outline-dark btn-xl" href="https://www.wildrosemagic.org/" target="/">
-                  More Information
-              </a>
+              <div className="offset-4 mt-4">
+                <a className="btn btn-outline-dark" href="https://www.wildrosemagic.org/" target="/">
+
+                  <img
+                    className="rounded "
+                    src={wrlogo}
+                    alt=""
+                  />
+                </a>
+                <p> Click for More Information</p>
               </div>
+
             </div>
           </div>
         </div>

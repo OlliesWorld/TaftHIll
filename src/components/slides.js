@@ -14,7 +14,7 @@ export default function Slider() {
   return (
     <div className="Slider">
       <AliceCarousel autoPlay autoPlayInterval="2500">
-        <div className="intro-text left-0 text-center bg-faded p-5 rounded">
+        <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="lead mb-3">
             The horses here are so happy and so well taken care of! My old mare was really struggling at her old barn. I was on the waitlist for Taft Hill and Meg was able to find us a spot to get my old lady into a better situation. Since moving, she is acting like a completely different horse. She is bright, interested in her surroundings, and acting liker herself again. I am so thankful to have her at Taft Hill Acres and highly highly recommend the barn!
             </h4>
@@ -34,7 +34,7 @@ export default function Slider() {
           src={Cutie}
           alt="Horse looking at camera"
         />
-        <div className="intro-text left-0 text-center bg-faded p-5 rounded">
+        <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">
             I had a horse in training there with Cayla Stone. Great place, laid back enviroment but very clean and well kept. Horses all looked great and were happy. Everyone there was nice too. I definitely recommend it.
             </h4>
@@ -57,7 +57,7 @@ export default function Slider() {
           alt=""
         />
 
-        <div className="intro-text left-0 text-center bg-faded p-5 rounded">
+        <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">
             Such a wonderful and friendly horse enviroment. It's been such a pleasure to board here. The property is always clean and very mellow and everyone is so friendly!
             </h4>
@@ -79,7 +79,7 @@ export default function Slider() {
           alt=""
         />
 
-        <div className="intro-text left-0 text-center bg-faded p-5 rounded">
+        <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">
             I adore Taft Hill Acres. It is a very no-nonsense barn that focuses on high quality care. Problems are handled quickly and professionally. Highly recommended.
             </h4>
@@ -101,7 +101,7 @@ export default function Slider() {
           alt=""
         />
 
-        <div className="intro-text left-0 text-center bg-faded p-5 rounded">
+        <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">
             I've been boarding at THA since May and couldn't be happier! They are so attentive, and responsive to any needs you may have. Everyone has each others back, and is really supportive. All amenities are full functioning, there is plenty fo room, and it never feels overly crowded! I couldn't ask for a better, more fair priced, or conveniently located stable.
             </h4>
@@ -123,7 +123,7 @@ export default function Slider() {
           src={barn}
           alt="Horses kissing over fence"
         />
-        <div className="intro-text left-0 text-center bg-faded p-5 rounded">
+        <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">
             Awesome facility! Owners maintain and manage it excellently and horses are always well cared for. I have never met an unkind person here, everyone is considerate and friendly! Diamond and I love it here!
             </h4>
@@ -145,7 +145,7 @@ export default function Slider() {
           src={frontfield}
           alt=""
         />
-        <div className="intro-text left-0 text-center bg-faded p-5 rounded">
+        <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">
             This is the best boarding facility I have ever had my horses at. Mef, Rene and Anna are great people, and it has been a pleasure to have them take care of my animals. I am extremely picky about the care of my horses, having taken care of horses professionally. This barn has an amazing froup of boraders. In the long time that I've been here, there has never been any drama. Meg is excellent at addressing any issues that may arise in a prompt and efficient manner. I highly recommend this barn.
             </h4>
@@ -167,7 +167,7 @@ export default function Slider() {
           src={isopen}
           alt=""
         />
-        <div className="intro-text left-0 text-center bg-faded p-5 rounded">
+        <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">
             I beyond love it here and Meg is amazing! I would never have expected the level of care she gives my picky mare.
             </h4>

@@ -4,13 +4,13 @@
   align-items: flex-end;
   justify-content: center;
   max-width: 500px;
-  margin: 0;
+  margin: 2rem 0;
 }
 .Form--Title {
   border-radius: 12px;
   background: #6b6b44;
   color: #1b2911;
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: 900;
   margin: 0;
   padding: 10px;
@@ -24,7 +24,7 @@
   }
 }
 .Form > * + * {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .Form--Group {
@@ -65,7 +65,7 @@
   display: block;
   margin: 0;
   border: 1px solid #bababa;
-  padding: 1.5rem 2rem;
+  padding: 1rem 2rem;
   border-radius: var(--borderRadius);
   line-height: 1.25em;
   transition: border-color 0.2s;
@@ -116,6 +116,7 @@
 }
 
 .Form--Input:-webkit-autofill {
+  box-shadow: 0 0 0 1000px white inset !important;
   -webkit-box-shadow: 0 0 0 1000px white inset !important;
 }
 

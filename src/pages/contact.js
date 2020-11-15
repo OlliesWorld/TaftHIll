@@ -7,18 +7,16 @@ import ContactFormPage from '../components/Form';
 
 const ContactPage = () => (
     <Layout activeLink="contact">
-        <section className="page-section">
-
-
+        <section className="page-section mt-0">
             <div className="form-cont">
                 <div className="mr-auto">
-                    <div className=" p-3 rounded">
+                    <div className=" p-1 rounded">
 
                         <ContactFormPage />
                     </div>
                 </div>
-                <div className="product-item-description d-flex mr-auto">
-                    <div className="bg-faded p-3 col-4 ml-5  rounded">
+                <div className="d-flex mr-auto">
+                    <div className="bg-faded p-3  ml-2  rounded">
                         <p className="mb-0 paragraph">
                             We are conveniently located within 2 miles of CSU, and Old Town. There is direct access to the Poudre Trail and close access to Lory State Park and Reservoir Ridge.
               </p>

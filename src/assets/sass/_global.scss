@@ -50,6 +50,11 @@ p {
   font-size: 1.5rem;
   line-height: 2rem;
 }
+@media (max-width: 700px) {
+  .paragraph {
+    font-size: 1rem;
+  }
+}
 
 .section-heading {
   text-transform: uppercase;
@@ -70,32 +75,34 @@ p {
 .bg-faded {
   background-color: fade-out($white, 0.15);
 }
+.wr-logo {
+  width: 70%;
+  margin: 0 auto;
+}
 .blue {
   color: white;
   width: 50%;
   margin: 0 auto;
   font-size: 2rem;
 }
-
+@media (max-width: 700px) {
+  .blue {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+}
 .facility li {
   display: block;
   font-size: 2rem;
   font-weight: 100;
-  text-decoration: none;
 }
 
-// .facility-img {
-//   float: right;
-//   margin-left: 20px;
-
-//   width: 24%;
-// }
 @media (max-width: 700px) {
   .facility li {
     display: block;
     font-size: 1.5rem;
     font-weight: 100;
-    text-decoration: none;
   }
 }
 

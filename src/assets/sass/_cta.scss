@@ -7,7 +7,7 @@
     position: relative;
     padding: 1rem;
     margin: 0.5rem;
-    background-color: fade-out($white, 0.15);
+
     font-size: 18px;
     &:before {
       border-radius: 0.5rem;
@@ -22,27 +22,11 @@
     }
   }
 }
-.option-two  {
-  background: #888869;
-  font-size: 18px;
+.option-two {
+  color: #888869;
+  font-size: 1rem;
 }
 .option-three {
-  background: #6b6b44;
-  font-family: 'Handlee', cursive;
-  font-size: 18px;
-}
-.option-four {
-  background: #586b44;
-  font-family: 'Antic Didone', serif;
-  font-size: 18px;
-}
-.option-five {
-  background: #6b6444;
-  font-family: 'Delius Swash Caps', cursive;
-  font-size: 18px;
-}
-.option-six {
-  background: #9b9268 ;
-  font-family: 'Comfortaa', cursive;
-  font-size: 18px;
+  color: #1b2911;
+  font-size: 0.7rem;
 }

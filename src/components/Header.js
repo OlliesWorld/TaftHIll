@@ -64,17 +64,6 @@ export default class Header extends Component {
                 </Link>
               </li>
               <li
-                className={`nav-item px-lg-4 ${activeLink === 'training' ? 'active' : ''
-                  }`}
-              >
-                <Link
-                  className="nav-link text-uppercase text-expanded"
-                  to="/training"
-                >
-                  Training
-                </Link>
-              </li>
-              <li
                 className={`nav-item px-lg-4 ${activeLink === 'facility' ? 'active' : ''
                   }`}
               >
@@ -86,6 +75,18 @@ export default class Header extends Component {
                 </Link>
 
               </li>
+              <li
+                className={`nav-item px-lg-4 ${activeLink === 'training' ? 'active' : ''
+                  }`}
+              >
+                <Link
+                  className="nav-link text-uppercase text-expanded"
+                  to="/training"
+                >
+                  Training
+                </Link>
+              </li>
+
               <li
                 className={`nav-item px-lg-2 ${activeLink === 'testimonial' ? 'active' : ''
                   }`}

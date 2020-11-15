@@ -18,12 +18,12 @@ const IndexPage = () => (
         <div className="about-heading-content">
           <div className="row">
             <div className="col-xl-9 col-lg-10 mx-auto">
-              <div className="bg-faded rounded p-5">
+              <div className="bg-faded rounded p-3">
                 <h2 className="section-heading mb-4">
                   <span className="section-heading-upper">
                     Healthy & Happy
                   </span>
-                  <span className="section-heading-lower">About Taft Hill Acres</span>
+                  <span className="section-heading-lower">About</span>
                 </h2>
                 <p className="mb-3">
                   Most horses at Taft Hill Acres live in herds of 2 to 5 horses. All horses have free access to high quality grass hay, automatic heated waterers, and adequate shelter. All pens have safe Bayco fencing and are cleaned daily. We pride ourselves on having one of the cleanest horse farms on the front range.  We use Haychix slow feed nets and hay is fed from Hayhut feeders to ensure hay is fresh and dry at all times. Free feeding horses is ideal because horses can graze all day as nature intended but it also cuts down greatly on negative herd interactions. The horses are happy and peaceful in their herds at our Fort Collins boarding facility.
@@ -75,7 +75,7 @@ const IndexPage = () => (
       </div>
     </section>
     <section>
-      <p className="text-center blue">click to enlarge photos below ⤵</p>
+      <p className="text-center option-two">click photo to enlarge ⤵</p>
       <Grid />
     </section>
   </Layout>

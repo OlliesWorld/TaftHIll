@@ -14,9 +14,9 @@ const IndexPage = () => (
     <section className="page-section">
       <div className="container">
         <div className=" d-flex">
-          <div className="bg-faded p-5 d-flex m-auto rounded ">
+          <div className="bg-faded p-4 d-flex m-auto rounded ">
             <h2 className="section-heading mb-0 ">
-              <span className="display-3 ">
+              <span className="display-4 ">
                 Our Facility
                 </span>
             </h2>

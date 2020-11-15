@@ -74,7 +74,7 @@ const NameForm = (props) => {
                     className='Form--Input Form--Textarea'
                     placeholder='Message'
                     name='message'
-                    rows='10'
+                    rows='8'
                     required
                 />
             </label>

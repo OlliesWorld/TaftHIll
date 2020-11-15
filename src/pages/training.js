@@ -12,7 +12,7 @@ const IndexPage = () => (
     <section className="page-section">
       <div className="container">
         <div className=" d-flex">
-          <div className="bg-faded p-5 d-flex ml-auto rounded">
+          <div className="bg-faded p-2 d-flex ml-auto rounded">
             <h2 className="section-heading mb-0">
               <span className="section-heading-upper">
                 Cayla Stone
@@ -29,7 +29,7 @@ const IndexPage = () => (
           alt=""
         />
         <div className="product-item-description d-flex mr-auto">
-          <div className="bg-faded p-5 rounded">
+          <div className="bg-faded p-2 rounded">
             <p className="mb-0 paragraph">
               Cayla has a particular love and interest in promoting Mustangs in the english riding disciplines and has become well-known as a Mustang trainer. She is a graduate of the CSU Equine Science program, a two-time finalist in the Extreme Mustang Makeover Competition, an established TIP trainer, and Eventing Trainer. Over the last six years, Cayla has trained or assisted in the training of over 30 Mustangs. This is a huge feat given that she only has one or two in training at any given time! Cayla believes that the more awareness she can bring to the versatility of the breed, the more adoptable these horses will become. Cayla shows her 2016 Mustang Makeover 5th place finisher, Atalanta in Eventing and won 10th place at the 2018 American Eventing Championships. Cayla also won the overall award for best adult pony rider.
               </p>
@@ -44,7 +44,7 @@ const IndexPage = () => (
       <div className="container">
         <div className="product-item">
           <div className="product-item-title d-flex">
-            <div className="bg-faded p-5 d-flex mr-auto rounded">
+            <div className="bg-faded p-3 d-flex mr-auto rounded">
               <h2 className="section-heading mb-0">
                 <span className="section-heading-upper">
                   Wild Rose Mustang Advocacy Group
@@ -62,23 +62,23 @@ const IndexPage = () => (
             alt=""
           />
           <div className="product-item-description d-flex ml-auto">
-            <div className="bg-faded p-5 rounded">
+            <div className="bg-faded p-3 rounded">
               <p className="mb-0 paragraph">We believe in ensuring that every adoptable Mustang off the range receives excellent healthcare and individualized training to find a forever home.
               </p>
 
               <p className="mb-0 paragraph">
                 Our goal is to help change the story of American Mustangs in the West by providing professional under saddle training and increase adoptions of these amazing horses.
               </p>
-              <div className="offset-3 mt-2">
-                <a className="btn btn-outline-dark" href="https://www.wildrosemagic.org/" target="/">
+              <div className="mt-2 text-center">
+                <a className="btn" href="https://www.wildrosemagic.org/" target="/">
 
                   <img
-                    className="rounded "
+                    className="wr-logo"
                     src={wrlogo}
                     alt=""
                   />
                 </a>
-                <p className="mx-5 px-3"> Click for More Information</p>
+                <p className="mx-5 px-1 option-three"> Click for More Information</p>
               </div>
 
             </div>

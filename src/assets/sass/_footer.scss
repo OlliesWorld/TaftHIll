@@ -2,21 +2,27 @@
   background-color: fade-out($secondary, 0.1);
 
   background-image: url('../images/Logo-THA.png');
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 8rem;
+  background-size: 13rem;
 }
-.footer p {
-  font-size: 1.2rem;
+.footer-sub p {
+  font-size: 0.5rem;
+  margin: 0;
 }
 .fb-container {
   float: right;
-  margin-top: -100px;
-  margin-right: 100px;
+  margin-top: -50px;
+  margin-right: 20px;
 }
 @media (min-width: 600px) {
   .footer {
     background-size: 16rem;
     font-size: 1.8rem;
+  }
+  .fb-container {
+    float: right;
+    margin-top: -100px;
+    margin-right: 100px;
   }
 }

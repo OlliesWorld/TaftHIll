@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import ContactFormPage from '../components/Form';
-import fbicon from '../assets/images/icons8-facebook-48.png';
+
 
 
 const ContactPage = () => (
@@ -36,9 +36,6 @@ const ContactPage = () => (
                 1012 N Taft Hill Rd <br />
                 Fort Collins, CO 80521
                         </p>
-            <p>
-                <a href="https://www.facebook.com/TaftHillAcres/?ref=hl" aria="Facebook Icon" class="fb-btn"><img src={fbicon} alt="Facebook Icon" /></a>
-            </p>
         </div>
 
     </Layout >

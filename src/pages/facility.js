@@ -2,120 +2,90 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import arena from '../assets/images/arenaskinny.jpg'
-import jump from '../assets/images/jumping.jpg'
-import penlength from '../assets/images/Penlength.jpg'
-import runs from '../assets/images/runs.jpg'
+import arena from '../assets/images/arena.jpg'
+// import jump from '../assets/images/jumping.jpg'
+import pen from '../assets/images/Pen.jpg'
+import breeze from '../assets/images/breezeway.jpg'
 import wash from '../assets/images/washrack.jpg'
-import haybarn from '../assets/images/haybarn.jpg'
-import cayla from '../assets/images/Caylasroundpen.jpg';
+
 
 const IndexPage = () => (
   <Layout activeLink="facility">
     <section className="page-section">
-      <div className="container pb-sm-5">
-        <div className="row">
-          <div className=".col-xs-12 .col-md-8">
-            <div className="cta-inner text-center rounded">
-              <h2 className="section-heading mb-5">
-
-                <span className="facility">Our facility</span>
-              </h2>
-
-              <ul className="list-unstyled list-hours mb-5 text-left mx-auto">
-                <li className="list-unstyled-item list-hours-item d-flex">
-                  150'x 300'  sand arena</li>
-                <div className=".col-xs-6">
-                  <img
-                    className="facility-img"
-                    src={arena}
-                    alt=""
-                  /></div>
-                <li className="list-unstyled-item list-hours-item d-flex">60' sand round pen
-                </li>
-                <li className="list-unstyled-item list-hours-item d-flex">
-                  Sprinkler system for arena & fields</li>
-
-                <li className="list-unstyled-item list-hours-item d-flex">Professional lessons and training
-                </li>
-
-                <div className=".col-xs-6">
-                  <img
-                    className="facility-img"
-                    src={jump}
-                    alt=""
-                  />
-                </div>
-                <li className="list-unstyled-item list-hours-item d-flex">
-                  Professional lessons and training</li>
-                <li className="list-unstyled-item list-hours-item d-flex">Access to stadium jumps
-                </li>
-
-
-
-                <li className="list-unstyled-item list-hours-item d-flex">
-                  Outdoor wash rack & Indoor Grooming Area</li>
-                <div className=".col-xs-6">
-                  <img
-                    className="facility-img"
-                    src={wash}
-                    alt=""
-                  /></div>
-                <li className="list-unstyled-item list-hours-item d-flex">Bathroom for boarders
-                </li>
-                <li className="list-unstyled-item list-hours-item d-flex">
-                  Multiple locking tack rooms</li>
-                <li className="list-unstyled-item list-hours-item d-flex">Trailer parking
-                </li>
-                <div className=".col-xs-6">
-                  <img
-                    className="facility-img"
-                    src={haybarn}
-                    alt=""
-                  /></div>
-                <li className="list-unstyled-item list-hours-item d-flex">
-                  Safe Bayco fencing throughout</li>
-                <li className="list-unstyled-item list-hours-item d-flex">Automatic waterers
-                </li>
-
-                <li className="list-unstyled-item list-hours-item d-flex">
-                  Trail riding directly off the property</li>
-
-                <li className="list-unstyled-item list-hours-item d-flex">24-7 free feed hay in pens
-                </li>
-                <div className=".col-xs-6">
-                  <img
-                    className="facility-img"
-                    src={runs}
-                    alt=""
-                  /></div>
-                <li className="list-unstyled-item list-hours-item d-flex">
-                  Partial and full board options</li>
-                <div className=".col-xs-6">
-                  <img
-                    className="facility-img"
-                    src={penlength}
-                    alt=""
-                  />
-                </div>
-                <li className="list-unstyled-item list-hours-item d-flex">Run & group pen boarding options
-                </li>
-                <div className=".col-xs-6">
-                  <img
-                    className="facility-img"
-                    src={cayla}
-                    alt=""
-                  />
-                </div>
-              </ul>
-            </div>
-
+      <div className="container">
+        <div className=" d-flex">
+          <div className="bg-faded p-5 d-flex m-auto rounded ">
+            <h2 className="section-heading mb-0 ">
+              <span className="display-3 ">
+                Our Facility
+                </span>
+            </h2>
           </div>
-
+        </div>
+        <img
+          className="mx-auto d-flex rounded contact-img pt-3 mb-3 mb-lg-0"
+          src={arena}
+          alt=""
+        />
+        <div className="product-item-description d-flex mr-auto">
+          <div className="bg-faded p-3 rounded">
+            <ul className="facility">
+              <li>150'x 300' Sand Arena</li>
+              <li>60' Sand Round Pen</li>
+              <li>Access to Barrels, Stadium Jumps and Obstacles</li>
+              <li>Trail riding directly off property</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
+    <section className="page-section">
+      <div className="container">
 
+        <img
+          className="mx-auto d-flex rounded contact-img mb-3 mb-lg-0"
+          src={pen}
+          alt=""
+        />
+        <div className="product-item-description d-flex mr-auto">
+          <div className="bg-faded p-3 rounded">
+            <ul className="facility">
+              <li>Free Choice Hay</li>
+              <li>Bayco Fencning</li>
+              <li>Automatic Waters</li>
+              <li>Individual and group pen options</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section className="page-section">
+      <div className="container">
+
+        <img
+          className="mx-auto d-flex rounded contact-img mb-3 mb-lg-0"
+          src={breeze}
+          alt=""
+        />
+        <div className="product-item-description d-flex ml-auto">
+          <div className="bg-faded p-3 rounded">
+            <ul className="facility">
+              <li>Multiple locking tack rooms</li>
+              <li>Indoor grooming area</li>
+              <li>Outdoor wash rack</li>
+              <li>Bathroom</li>
+              <li>Trailer Parking</li>
+              <li>Automatic entry gate</li>
+            </ul>
+          </div>
+        </div>
+        <img
+          className="mx-auto d-flex rounded contact-img mb-3 mb-lg-0"
+          src={wash}
+          alt=""
+        />
+      </div>
+    </section>
 
   </Layout >
 );

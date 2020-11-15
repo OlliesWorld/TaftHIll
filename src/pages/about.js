@@ -1,14 +1,10 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
+import Grid from '../components/Grid'
 
 import bridge from '../assets/images/bridgearena.jpg'
-import playdate from '../assets/images/Babyplaydate.jpg';
-import bale from '../assets/images/Bale.jpg';
-import kitties from '../assets/images/barnkitties.jpg';
-import path from '../assets/images/bikepath2.jpg';
-import foggy2 from '../assets/images/foggy2.jpg';
-import riders from '../assets/images/riders.jpg'
+
 
 const IndexPage = () => (
   <Layout activeLink="about">
@@ -42,7 +38,7 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-        <img
+        {/* <img
           className=" rounded push-right  mt-n5 "
           src={path}
           alt=""
@@ -75,8 +71,12 @@ const IndexPage = () => (
 
           src={playdate}
           alt=""
-        />
+        /> */}
       </div>
+    </section>
+    <section>
+      <p className="text-center blue">click to enlarge photos below ⤵</p>
+      <Grid />
     </section>
   </Layout>
 );

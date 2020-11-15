@@ -33,7 +33,7 @@ const IndexPage = () => (
 
     </section>
 
-    <section className="page-section cta">
+    {/* <section className="page-section cta">
       <div className="container">
         <div className="row">
           <div className="col-xl-9 mx-auto ">
@@ -55,7 +55,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
 
   </Layout>
 );

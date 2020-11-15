@@ -47,7 +47,7 @@ const IndexPage = () => (
             <div className="bg-faded p-5 d-flex mr-auto rounded">
               <h2 className="section-heading mb-0">
                 <span className="section-heading-upper">
-                  Wild Rose Mustang Advocacy
+                  Wild Rose Mustang Advocacy Group
                 </span>
 
                 <span className="section-heading-lower">
@@ -69,7 +69,7 @@ const IndexPage = () => (
               <p className="mb-0 paragraph">
                 Our goal is to help change the story of American Mustangs in the West by providing professional under saddle training and increase adoptions of these amazing horses.
               </p>
-              <div className="offset-2 mt-2">
+              <div className="offset-3 mt-2">
                 <a className="btn btn-outline-dark" href="https://www.wildrosemagic.org/" target="/">
 
                   <img
@@ -78,7 +78,7 @@ const IndexPage = () => (
                     alt=""
                   />
                 </a>
-                <p> Click for More Information</p>
+                <p className="mx-5 px-3"> Click for More Information</p>
               </div>
 
             </div>

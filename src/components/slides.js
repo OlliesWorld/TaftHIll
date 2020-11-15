@@ -13,7 +13,7 @@ import isopen from '../assets/images/ISOpen.jpg'
 export default function Slider() {
   return (
     <div className="Slider">
-      <AliceCarousel autoPlay autoHeight autoPlayInterval="2500">
+      <AliceCarousel autoPlay autoHeight infinite autoPlayInterval="3000">
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="lead mb-3">
             The horses here are so happy and so well taken care of! My old mare was really struggling at her old barn. I was on the waitlist for Taft Hill and Meg was able to find us a spot to get my old lady into a better situation. Since moving, she is acting like a completely different horse. She is bright, interested in her surroundings, and acting liker herself again. I am so thankful to have her at Taft Hill Acres and highly highly recommend the barn!
@@ -59,10 +59,10 @@ export default function Slider() {
 
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">
-            Such a wonderful and friendly horse enviroment. It's been such a pleasure to board here. The property is always clean and very mellow and everyone is so friendly!
+            Best barn ever! Quality care for all of the horses and the nicest barn owners. Meg, Rene, and Anna go the extra mile to make sure all of the horses and their owners are well taken care of.
             </h4>
           <h2 className="section-heading mb-4">
-            <span className="section-heading-upper">~Jenna</span>
+            <span className="section-heading-upper">~Jannet, DVM</span>
           </h2>
           <div className="intro-text left-0 text-center bg-secondary p-1 rounded">
             <h4 className="text-primary mt-5 mb-3">
@@ -84,7 +84,7 @@ export default function Slider() {
             I adore Taft Hill Acres. It is a very no-nonsense barn that focuses on high quality care. Problems are handled quickly and professionally. Highly recommended.
             </h4>
           <h2 className="section-heading mb-4">
-            <span className="section-heading-upper">~Linday</span>
+            <span className="section-heading-upper">~Lindsay</span>
           </h2>
           <div className="intro-text left-0 text-center bg-secondary p-1 rounded">
             <h4 className="text-primary mt-5 mb-3">

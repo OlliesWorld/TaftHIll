@@ -1,11 +1,18 @@
 .footer {
   background-color: fade-out($secondary, 0.1);
-  color: whitesmoke;
-  font-size: 1rem;
+
   background-image: url('../images/Logo-THA.png');
-  background-position: right;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 8rem;
+}
+.footer p {
+  font-size: 1.2rem;
+}
+.fb-container {
+  float: right;
+  margin-top: -100px;
+  margin-right: 100px;
 }
 @media (min-width: 600px) {
   .footer {

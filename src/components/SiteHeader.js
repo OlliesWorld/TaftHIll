@@ -17,11 +17,11 @@ export default function SiteHeader() {
         </span>
         <span className="site-heading-lower">{config.siteTitle}</span>
       </h1>
-      <label
+      {/* <label
       ><input type="checkbox" class="theme-changer" />
         <div class="mode-container">
           <i class="gg-sun"></i><i class="gg-moon"></i></div
-        ></label>
+        ></label> */}
     </>
   );
 }

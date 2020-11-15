@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import ContactFormPage from '../components/Form';
+import fbicon from '../assets/images/icons8-facebook-48.png';
 
 
 const ContactPage = () => (
@@ -17,11 +18,12 @@ const ContactPage = () => (
                     </div>
                 </div>
                 <div className="product-item-description d-flex mr-auto">
-                    <div className="bg-faded p-5 col-8 ml-5 rounded">
-                        <p className="mb-0">
-                            We are conveniently located within 2 miles of CSU, and old town. There is close access to Reservoir Ridge and the Poudre Trail as well as lovely open space riding at the back of the property.
+                    <div className="bg-faded p-3 col-4 ml-5  rounded">
+                        <p className="mb-0 paragraph">
+                            We are conveniently located within 2 miles of CSU, and Old Town. There is direct access to the Poudre Trail and close access to Lory State Park and Reservoir Ridge.
               </p>
                     </div>
+
                 </div>
 
             </div>
@@ -34,6 +36,9 @@ const ContactPage = () => (
                 1012 N Taft Hill Rd <br />
                 Fort Collins, CO 80521
                         </p>
+            <p>
+                <a href="https://www.facebook.com/TaftHillAcres/?ref=hl" aria="Facebook Icon" class="fb-btn"><img src={fbicon} alt="Facebook Icon" /></a>
+            </p>
         </div>
 
     </Layout >

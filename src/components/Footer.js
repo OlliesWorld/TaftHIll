@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer text-faded  py-3">
       <div className="footer-sub mt-5">
         <p className="mt-0">&copy; {new Date().getFullYear()}  Taft Hill Acres</p>
-        <p className="mt-0">Made with <span role="img" aria-label="blue heart">💙</span> by<a href="olliesworld.rocks">Ollie's World</a></p>
+        <p className="mt-0">Made with <span role="img" aria-label="blue heart">💙</span> by<a href="roni.rocks">Roni</a></p>
       </div>
       <div className="fb-container">
         <p>

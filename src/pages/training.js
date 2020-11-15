@@ -6,7 +6,6 @@ import Layout from '../components/Layout';
 import cayla from '../assets/images/cayla.jpg';
 import caylacross from '../assets/images/caylacross.jpg'
 import wrlogo from '../assets/images/wr_logo_web.png'
-
 const IndexPage = () => (
   <Layout activeLink="training">
     <section className="page-section">
@@ -25,13 +24,13 @@ const IndexPage = () => (
         </div>
         <img
           className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
-          src={cayla}
+          src={caylacross}
           alt=""
         />
         <div className="product-item-description d-flex mr-auto">
           <div className="bg-faded p-2 rounded">
             <p className="mb-0 paragraph">
-              Cayla has a particular love and interest in promoting Mustangs in the english riding disciplines and has become well-known as a Mustang trainer. She is a graduate of the CSU Equine Science program, a two-time finalist in the Extreme Mustang Makeover Competition, an established TIP trainer, and Eventing Trainer. Over the last six years, Cayla has trained or assisted in the training of over 30 Mustangs. This is a huge feat given that she only has one or two in training at any given time! Cayla believes that the more awareness she can bring to the versatility of the breed, the more adoptable these horses will become. Cayla shows her 2016 Mustang Makeover 5th place finisher, Atalanta in Eventing and won 10th place at the 2018 American Eventing Championships. Cayla also won the overall award for best adult pony rider.
+              Cayla is an Event rider and Trainer, and has been teaching/training in Fort Collins since 2007. Cayla has a particular love and interest in promoting Mustangs in the english riding disciplines and has become well-known as a Mustang trainer. She is a graduate of the CSU Equine Science program, a two-time finalist in the Extreme Mustang Makeover Competition, an established TIP trainer, and Eventing Trainer. Over the last six years, Cayla has trained or assisted in the training of over 30 Mustangs. This is a huge feat given that she only has one or two in training at any given time! Cayla believes that the more awareness she can bring to the versatility of the breed, the more adoptable these horses will become. Cayla shows her 2016 Mustang Makeover 5th place finisher, Atalanta in Eventing and won 10th place at the 2018 American Eventing Championships. Cayla also won the overall award for best adult pony rider.
               </p>
           </div>
 
@@ -58,16 +57,16 @@ const IndexPage = () => (
           </div>
           <img
             className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
-            src={caylacross}
+            src={cayla}
             alt=""
           />
           <div className="product-item-description d-flex ml-auto">
             <div className="bg-faded p-3 rounded">
-              <p className="mb-0 paragraph">We believe in ensuring that every adoptable Mustang off the range receives excellent healthcare and individualized training to find a forever home.
+              <p className="mb-0 paragraph">Taft Hill Acres is pleased to host Wild Rose Mustang Advocacy Group. Wild Rose believes that every adoptable Mustang off the range should receive excellent healthcare and individualized training to find their forever home.
               </p>
-
+              <br />
               <p className="mb-0 paragraph">
-                Our goal is to help change the story of American Mustangs in the West by providing professional under saddle training and increase adoptions of these amazing horses.
+                Their  goal is to help change the story of American Mustangs in the West by providing professional, under saddle training and increase adoptions of these amazing horses.
               </p>
               <div className="mt-2 text-center">
                 <a className="btn" href="https://www.wildrosemagic.org/" target="/">

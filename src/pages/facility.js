@@ -2,8 +2,8 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import arena from '../assets/images/arena.jpg'
-// import jump from '../assets/images/jumping.jpg'
+// import arena from '../assets/images/arena.jpg'
+import jump from '../assets/images/jumps.jpg'
 import pen from '../assets/images/Pen.jpg'
 import breeze from '../assets/images/breezeway.jpg'
 import wash from '../assets/images/washrack.jpg'
@@ -24,7 +24,7 @@ const IndexPage = () => (
         </div>
         <img
           className="mx-auto d-flex rounded contact-img pt-3 mb-3 mb-lg-0"
-          src={arena}
+          src={jump}
           alt=""
         />
         <div className="product-item-description d-flex mr-auto">
@@ -49,9 +49,9 @@ const IndexPage = () => (
         />
         <div className="product-item-description d-flex mr-auto">
           <div className="bg-faded p-3 rounded">
-            <ul className="facility">
+            <ul className="facility-one">
               <li>Free Choice Hay</li>
-              <li>Bayco Fencning</li>
+              <li>Bayco Fencing</li>
               <li>Automatic Waters</li>
               <li>Individual and group pen options</li>
             </ul>
@@ -69,7 +69,7 @@ const IndexPage = () => (
         />
         <div className="product-item-description d-flex ml-auto">
           <div className="bg-faded p-3 rounded">
-            <ul className="facility">
+            <ul className="facility-two">
               <li>Multiple locking tack rooms</li>
               <li>Indoor grooming area</li>
               <li>Outdoor wash rack</li>

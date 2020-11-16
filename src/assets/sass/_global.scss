@@ -96,22 +96,8 @@ p {
   display: block;
   font-size: 2rem;
   font-weight: 100;
-  list-style-type: circle;
 }
-.facility-one {
-  display: block;
-  font-size: 2rem;
-  font-weight: 100;
-}
-.facility-two {
-  display: block;
-  font-size: 2rem;
-  font-weight: 100;
-  list-style: none;
-}
-.facility-two li::before {
-  content: '🐴 ';
-}
+
 @media (max-width: 700px) {
   .facility li {
     display: block;

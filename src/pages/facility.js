@@ -49,7 +49,7 @@ const IndexPage = () => (
         />
         <div className="product-item-description d-flex mr-auto">
           <div className="bg-faded p-3 rounded">
-            <ul className="facility-one">
+            <ul className="facility">
               <li>Free Choice Hay</li>
               <li>Bayco Fencing</li>
               <li>Automatic Waters</li>
@@ -69,7 +69,7 @@ const IndexPage = () => (
         />
         <div className="product-item-description d-flex ml-auto">
           <div className="bg-faded p-3 rounded">
-            <ul className="facility-two">
+            <ul className="facility">
               <li>Multiple locking tack rooms</li>
               <li>Indoor grooming area</li>
               <li>Outdoor wash rack</li>

@@ -8,12 +8,13 @@ import bridge from '../assets/images/bridgearena.jpg'
 
 const IndexPage = () => (
   <Layout activeLink="about">
-    <section className="page-section about-heading">
+    <section arial-label="About Taft Hill Acres" className="page-section about-heading">
       <div className="container">
         <img
           className="sliderimg img-fluid mb-1 mb-lg-0 rounded"
           src={bridge}
-          alt=""
+          alt="Looking at main barn across bridge"
+          aria-label="Looking at main barn across bridge"
         />
         <div className="about-heading-content">
           <div className="row">
@@ -38,43 +39,10 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-        {/* <img
-          className=" rounded push-right  mt-n5 "
-          src={path}
-          alt=""
-        />
-        <img
-          className="rounded push-left  "
-          src={riders}
-          alt=""
-        />
-        <img
-          className=" push-left rounded  "
-
-          src={foggy2}
-          alt=""
-        />
-        <img
-          className="push-right rounded right-side offset-4 mt-n5 "
-
-          src={bale}
-          alt=""
-        />
-        <img
-          className="sliderimg rounded right-side  mt-n5 "
-
-          src={kitties}
-          alt=""
-        />
-        <img
-          className="sliderimg rounded right-side  mt-n5 "
-
-          src={playdate}
-          alt=""
-        /> */}
+        
       </div>
     </section>
-    <section>
+    <section aria-label="Grid gallery of variety of photos">
       <p className="text-center option-two">click photo to enlarge ⤵</p>
       <Grid />
     </section>

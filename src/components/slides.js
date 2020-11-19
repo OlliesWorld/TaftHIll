@@ -6,7 +6,7 @@ import barn from '../assets/images/barn.jpeg';
 import Cutie from '../assets/images/Annaandande2.jpg';
 import pasture from '../assets/images/backfield2.jpg';
 import bale from '../assets/images/Bale.jpg'
-import bike from '../assets/images/bikepath.jpg'
+import bike from '../assets/images/bikepath4.jpg'
 import frontfield from '../assets/images/frontfield.jpg'
 import isopen from '../assets/images/ISOpen.jpg'
 
@@ -32,7 +32,8 @@ export default function Slider() {
         <img
           className="sliderimg"
           src={Cutie}
-          alt="Horse looking at camera"
+          alt="Anna and Ande enjoying our pasture turnout"
+          aria-label="Anna and Ande enjoying our pasture turnout"
         />
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">
@@ -54,7 +55,8 @@ export default function Slider() {
         <img
           className="sliderimg"
           src={pasture}
-          alt=""
+          alt="Horse enjoying the grass turned out in our pasture."
+          aria-label="Horse enjoying the grass turned out in our pasture."
         />
 
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
@@ -70,7 +72,8 @@ export default function Slider() {
         <img
           className="sliderimg"
           src={bale}
-          alt=""
+          alt="Three horses helping Rene place round bale in their group pen"
+          aria-label="Three horses helping Rene place round bale in their group pen"
         />
 
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
@@ -92,7 +95,8 @@ export default function Slider() {
         <img
           className="sliderimg"
           src={bike}
-          alt=""
+          alt="Trail ride on the Poudre River Trail that is accessible from our barn"
+          aria-label="Trail ride on the Poudre River Trail"
         />
 
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
@@ -115,7 +119,8 @@ export default function Slider() {
         <img
           className="sliderimg"
           src={barn}
-          alt="Horses kissing over fence"
+          alt="Looking at the main barn, round pen and a group pen"
+          aria-label="Looking at the main barn, round pen and a group pen"
         />
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">
@@ -137,7 +142,8 @@ export default function Slider() {
         <img
           className="sliderimg"
           src={frontfield}
-          alt=""
+          alt="Turnout pasture with shade and plenty of grass"
+          aria-label="Turnout pasture with shade and plenty of grass"
         />
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">
@@ -159,7 +165,8 @@ export default function Slider() {
         <img
           className="sliderimg"
           src={isopen}
-          alt=""
+          alt="One of our Isolation Pens that we use for new boarders"
+          aria-label="One of our Isolation Pens that we use for new boarders"
         />
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">

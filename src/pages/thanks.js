@@ -9,7 +9,8 @@ const ThanksPage = () => (
             <img
                 className="sliderimg mb-3 mb-lg-0 rounded"
                 src={wyatt}
-                alt=""
+                alt="Horse with his nose pointed toward camera"
+                aria-label="Horse with his nose pointed toward camera"
             />
             <h2 className="bg-faded site-header text-center p-3 m-5 rounded">Thank you for sending a message! <br></br><span role="img" aria-label="horse face emoji">🐴</span> We will get back to you as soon as the sun goes down!<span role="img" aria-label="horse face emoji">🐴</span></h2>
             <div class="blue text-center">

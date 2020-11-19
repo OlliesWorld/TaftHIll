@@ -16,7 +16,7 @@ const ContactPage = () => (
                     </div>
                 </div>
                 <div className="d-flex mr-auto">
-                    <div className="bg-faded p-3  ml-2  rounded">
+                    <div className="bg-faded p-5  ml-2  rounded">
                         <p className="mb-0 paragraph">
                             We are conveniently located within 2 miles of CSU, and Old Town. There is direct access to the Poudre Trail and close access to Lory State Park and Reservoir Ridge.
               </p>

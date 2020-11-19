@@ -25,7 +25,8 @@ const IndexPage = () => (
         <img
           className="mx-auto d-flex rounded contact-img pt-3 mb-3 mb-lg-0"
           src={jump}
-          alt=""
+          alt="Sand arena with stadium jumps"
+          aria-label="Nice sand arena with stadium jumps"
         />
         <div className="product-item-description d-flex mr-auto">
           <div className="bg-faded p-3 rounded">
@@ -45,7 +46,8 @@ const IndexPage = () => (
         <img
           className="mx-auto d-flex rounded contact-img mb-3 mb-lg-0"
           src={pen}
-          alt=""
+          alt="One of the many pens with 5 horses eating out of hay hut"
+          aria-label="One of the many pens with 5 horses eating out of hay hut"
         />
         <div className="product-item-description d-flex mr-auto">
           <div className="bg-faded p-3 rounded">
@@ -65,7 +67,8 @@ const IndexPage = () => (
         <img
           className="mx-auto d-flex rounded contact-img mb-3 mb-lg-0"
           src={breeze}
-          alt=""
+          alt="The breezeway in the main barn where the bathroom is"
+          aria-label="The breezeway in the main barn where the bathroom is"
         />
         <div className="product-item-description d-flex ml-auto">
           <div className="bg-faded p-3 rounded">
@@ -82,7 +85,8 @@ const IndexPage = () => (
         <img
           className="mx-auto d-flex rounded contact-img mb-3 mb-lg-0"
           src={wash}
-          alt=""
+          alt="Our washrack is wide and has pea gravel footing"
+          aria-label="Our washrack is wide and has pea gravel footing"
         />
       </div>
     </section>

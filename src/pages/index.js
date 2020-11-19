@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout activeLink="home">
     <section className="page-section clearfix">
       <div className="container">
-        <div className="intro">
+        <div aria-label="introduction" className="intro">
 
           <HeroSlider />
         </div>
@@ -24,7 +24,7 @@ const IndexPage = () => (
           <br />
           <p className="mb-3 paragraph">Taft Hill Acres strives to create an atmosphere that is friendly and relaxed with the health and happiness of the horses as our number one priority. </p>
           <div className="intro-button mx-auto">
-            <a className="btn btn-outline-dark btn-xl" href="/contact">
+            <a aria-label="Contact Form" className="btn btn-outline-dark btn-xl" href="/contact">
               Visit Us Today!
               </a>
           </div>

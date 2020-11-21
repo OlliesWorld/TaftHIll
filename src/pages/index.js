@@ -11,7 +11,7 @@ const IndexPage = () => (
       <div className="container">
         <div aria-label="introduction" className="intro">
 
-          <HeroSlider />
+          <HeroSlider aria-label="images from around Taft Hill Acres"/>
         </div>
         <div className="text-center bg-faded p-3 rounded ">
           <h2 className="section-heading mb-2">
@@ -24,7 +24,7 @@ const IndexPage = () => (
           <br />
           <p className="mb-3 paragraph">Taft Hill Acres strives to create an atmosphere that is friendly and relaxed with the health and happiness of the horses as our number one priority. </p>
           <div className="intro-button mx-auto">
-            <a aria-label="Contact Form" className="btn btn-outline-dark btn-xl" href="/contact">
+            <a aria-label="Contact Form Link" className="btn btn-outline-dark btn-xl" href="/contact">
               Visit Us Today!
               </a>
           </div>

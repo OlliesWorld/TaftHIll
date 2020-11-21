@@ -26,7 +26,6 @@ const IndexPage = () => (
           className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
           src={caylacross}
           alt="Cayla Stone jumping mustag over cross country jump"
-          aria-label="Cayla Stone jumping mustag over cross country jump"
         />
         <div className="product-item-description d-flex mr-auto">
           <div className="bg-faded p-2 rounded">
@@ -60,7 +59,7 @@ const IndexPage = () => (
             className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
             src={cayla}
             alt="Cayla Stone free rein on trained mustang"
-            aria-label="Cayla Stone free rein on trained mustang"
+            
           />
           <div className="product-item-description d-flex ml-auto">
             <div className="bg-faded p-3 rounded">
@@ -76,7 +75,7 @@ const IndexPage = () => (
                   <img
                     className="wr-logo"
                     src={wrlogo}
-                    alt=""
+                    alt="Wild Rose Mustang Advocacy Group Logo"
                   />
                 </a>
                 <p className="mx-5 px-1 option-three"> Click for More Information</p>

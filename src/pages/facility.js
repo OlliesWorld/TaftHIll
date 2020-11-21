@@ -25,8 +25,8 @@ const IndexPage = () => (
         <img
           className="mx-auto d-flex rounded contact-img pt-3 mb-3 mb-lg-0"
           src={jump}
-          alt="Sand arena with stadium jumps"
-          aria-label="Nice sand arena with stadium jumps"
+          alt="Sand arena with stadium jumps for all horse boarders use"
+          
         />
         <div className="product-item-description d-flex mr-auto">
           <div className="bg-faded p-3 rounded">
@@ -46,8 +46,8 @@ const IndexPage = () => (
         <img
           className="mx-auto d-flex rounded contact-img mb-3 mb-lg-0"
           src={pen}
-          alt="One of the many pens with 5 horses eating out of hay hut"
-          aria-label="One of the many pens with 5 horses eating out of hay hut"
+          alt="One of the many pens with boarding horses eating out of hay hut"
+          
         />
         <div className="product-item-description d-flex mr-auto">
           <div className="bg-faded p-3 rounded">
@@ -67,8 +67,8 @@ const IndexPage = () => (
         <img
           className="mx-auto d-flex rounded contact-img mb-3 mb-lg-0"
           src={breeze}
-          alt="The breezeway in the main barn where the bathroom is"
-          aria-label="The breezeway in the main barn where the bathroom is"
+          alt="The breezeway in the main barn where the bathroom is accessible for boarders"
+          
         />
         <div className="product-item-description d-flex ml-auto">
           <div className="bg-faded p-3 rounded">
@@ -85,8 +85,8 @@ const IndexPage = () => (
         <img
           className="mx-auto d-flex rounded contact-img mb-3 mb-lg-0"
           src={wash}
-          alt="Our washrack is wide and has pea gravel footing"
-          aria-label="Our washrack is wide and has pea gravel footing"
+          alt="Our washrack is wide and has pea gravel footing for safety of the horse"
+          
         />
       </div>
     </section>

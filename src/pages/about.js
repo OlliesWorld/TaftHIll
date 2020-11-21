@@ -14,7 +14,6 @@ const IndexPage = () => (
           className="sliderimg img-fluid mb-1 mb-lg-0 rounded"
           src={bridge}
           alt="Looking at main barn across bridge"
-          aria-label="Looking at main barn across bridge"
         />
         <div className="about-heading-content">
           <div className="row">
@@ -42,7 +41,7 @@ const IndexPage = () => (
         
       </div>
     </section>
-    <section aria-label="Grid gallery of variety of photos">
+    <section aria-label="Grid gallery of variety of horse and landscapes">
       <p className="text-center option-two">click photo to enlarge ⤵</p>
       <Grid />
     </section>

@@ -5,7 +5,7 @@ export const photos = [
         src: "/assets/bikepath2.jpg",
         width: 2,
         height: 3,
-        alt: "Bike path trail ride overlooking ponds"
+        alt: "Poudre River Bike path trail ride overlooking ponds"
         
     },
     {
@@ -18,19 +18,19 @@ export const photos = [
         src: "/assets/barnkitties.jpg",
         width: 3,
         height: 4,
-        alt: "Barn cats napping on the hay"
+        alt: "Barn cats napping on the hay covered in hay nets for slow feeding"
     },
     {
         src: "/assets/bikepath6.jpg",
         width: 3,
         height: 4,
-        alt: "Trail ride with pond on side"
+        alt: "Trail ride, near Poudre River, with pond on side"
     },
     {
         src: "/assets/rene.jpg",
         width: 2,
         height: 3,
-        alt: "Rene in hay hut with friends"
+        alt: "Rene in hay hut with horse friends"
     },
     {
         src: "/assets/colors.jpg",
@@ -42,13 +42,13 @@ export const photos = [
         src: "/assets/frozentrees.jpg",
         width: 3,
         height: 3,
-        alt: "Frozen trees after cold night"
+        alt: "Frozen trees after cold night with horses"
     },
     {
         src: "/assets/bikepath.jpg",
         width: 2,
         height: 3,
-        alt: "Bike path trail ride with smoky sunset",
+        alt: "Poudre River trail ride with smokey sunset",
     },
     {
         src: "/assets/foggy2.jpg",
@@ -60,25 +60,25 @@ export const photos = [
         src: "/assets/goats.jpg",
         width: 1,
         height: 2,
-        alt: "Two goats standing on tree limb"
+        alt: "Two goats standing on tree limb at horse stables"
     },
     {
         src: "/assets/riders.jpg",
         width: 2,
         height: 3,
-        alt: "Meg riding Patty and Anna riding Ande in the arena"
+        alt: "Meg riding palimino horse and Anna riding bay horse in the arena"
     },
     {
         src: "/assets/parking.jpg",
         width: 4,
         height: 3,
-        alt: "Parking lot look at new hay barn"
+        alt: "Parking lot for boarders and look at new hay barn"
     },
     {
         src: "/assets/sitting.jpeg",
         width: 2,
         height: 3,
-        alt: "Anna sitting on Ande laying down"
+        alt: "Anna sitting on Ande laying down in the pen"
     },
     {
         src: "/assets/face.jpg",
@@ -90,12 +90,12 @@ export const photos = [
         src: "/assets/field.jpg",
         width: 4,
         height: 3,
-        alt: "Looking across field at the changing leaves"
+        alt: "Looking across field at the changing leaves near our our boarding facility"
     },
     {
         src: "/assets/rainingleaves.jpg",
         width: 3,
         height: 3,
-        alt: "Leaves covering the ground at the barn"
+        alt: "Leaves covering the ground at the barn and treats for the horses"
     }
 ];

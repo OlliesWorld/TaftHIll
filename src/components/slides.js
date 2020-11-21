@@ -12,7 +12,7 @@ import isopen from '../assets/images/ISOpen.jpg'
 
 export default function Slider() {
   return (
-    <div className="Slider">
+    <div arial-label="Testimonials about Taft Hill Acres" className="Slider">
       <AliceCarousel autoPlay autoHeight infinite autoPlayInterval="4000">
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">
@@ -32,8 +32,8 @@ export default function Slider() {
         <img
           className="sliderimg"
           src={Cutie}
-          alt="Anna and Ande enjoying our pasture turnout"
-          aria-label="Anna and Ande enjoying our pasture turnout"
+          alt="Anna and Ande enjoying our pasture turnout at Taft Hill Acres"
+          
         />
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">
@@ -55,8 +55,8 @@ export default function Slider() {
         <img
           className="sliderimg"
           src={pasture}
-          alt="Horse enjoying the grass turned out in our pasture."
-          aria-label="Horse enjoying the grass turned out in our pasture."
+          alt="Boarding Horse enjoying the grass turned out in our pasture."
+          
         />
 
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
@@ -73,7 +73,7 @@ export default function Slider() {
           className="sliderimg"
           src={bale}
           alt="Three horses helping Rene place round bale in their group pen"
-          aria-label="Three horses helping Rene place round bale in their group pen"
+          
         />
 
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
@@ -96,7 +96,7 @@ export default function Slider() {
           className="sliderimg"
           src={bike}
           alt="Trail ride on the Poudre River Trail that is accessible from our barn"
-          aria-label="Trail ride on the Poudre River Trail"
+          
         />
 
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
@@ -120,7 +120,7 @@ export default function Slider() {
           className="sliderimg"
           src={barn}
           alt="Looking at the main barn, round pen and a group pen"
-          aria-label="Looking at the main barn, round pen and a group pen"
+          
         />
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">
@@ -143,7 +143,7 @@ export default function Slider() {
           className="sliderimg"
           src={frontfield}
           alt="Turnout pasture with shade and plenty of grass"
-          aria-label="Turnout pasture with shade and plenty of grass"
+          
         />
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">
@@ -165,8 +165,8 @@ export default function Slider() {
         <img
           className="sliderimg"
           src={isopen}
-          alt="One of our Isolation Pens that we use for new boarders"
-          aria-label="One of our Isolation Pens that we use for new boarders"
+          alt="One of our isolation pens that we use for new boarders"
+          
         />
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">

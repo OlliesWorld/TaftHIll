@@ -13,10 +13,10 @@ import isopen from '../assets/images/ISOpen.jpg'
 export default function Slider() {
   return (
     <div className="Slider">
-      <AliceCarousel autoPlay autoHeight infinite autoPlayInterval="3000">
+      <AliceCarousel autoPlay autoHeight infinite autoPlayInterval="4000">
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">
-            The horses here are so happy and so well taken care of! My old mare was really struggling at her old barn. I was on the waitlist for Taft Hill and Meg was able to find us a spot to get my old lady into a better situation. Since moving, she is acting like a completely different horse. She is bright, interested in her surroundings, and acting liker herself again. I am so thankful to have her at Taft Hill Acres and highly highly recommend the barn!
+            The horses here are so happy and so well taken care of! My old mare was really struggling at her old barn. I was on the waitlist for Taft Hill and Meg was able to find us a spot to get my old lady into a better situation. Since moving, she is acting like a completely different horse. She is bright, interested in her surroundings, and acting like herself again. I am so thankful to have her at Taft Hill Acres and highly recommend the barn!
             </h4>
           <h2 className="section-heading mb-4">
             <span className="section-heading-upper">~Sam</span>
@@ -44,7 +44,7 @@ export default function Slider() {
           </h2>
           <div className="intro-text left-0 text-center bg-secondary p-1 rounded">
             <h4 className="text-primary mt-5 mb-3">
-              Everyone is so welcoming! When I first came to Colorado with my horse I just thought it was going to be like my old barn. Overpriced and with rude people. That couldn't be farther from the truth! They keep up the facility and take amazing care of the horses! My horse just left to go live with my family and I will miss each and everyone of them greatly!
+              Everyone is so welcoming! When I first came to Colorado with my horse, I just thought it was going to be like my old barn. Overpriced and with rude people. That couldn't be farther from the truth! They keep up the facility and take amazing care of the horses! My horse just left to go live with my family and I will miss each and everyone of them greatly!
             </h4>
             <h2 className="section-heading mb-4">
               <span className="text-primary section-heading-upper">~Samantha</span>
@@ -85,7 +85,7 @@ export default function Slider() {
           </h2>
           <div className="intro-text left-0 text-center bg-secondary p-1 rounded">
             <h4 className="text-primary mt-5 mb-3">
-              Taft Hill Acres is the best barn I have ever boarded my horse at. My Arabian mare has a very big personality and they are so accommodating. The barn community is always looking out for each other and I have never felt more comfortable keeping my horse at a facility. I know that on the days I am not able to get to the barn because of weather or other reasons that my horse is in great hands. This is most stress free barn I have ever been a part of and I could not recommend it enough.
+              Taft Hill Acres is the best barn I have ever boarded my horse at. My Arabian mare has a very big personality, and they are so accommodating. The barn community is always looking out for each other, and I have never felt more comfortable keeping my horse at a facility. I know that on the days I am not able to get to the barn, because of weather or other reasons, that my horse is in great hands. This is the most stress free barn I have ever been a part of and I could not recommend it enough.
             </h4>
             <h2 className="section-heading mb-4">
               <span className="text-primary section-heading-upper">~Hannah</span>
@@ -109,7 +109,7 @@ export default function Slider() {
 
           <div className="intro-text left-0 text-center bg-secondary p-1 rounded">
             <h4 className="text-primary mt-5 mb-3">
-              Taft Hill Acres has been the best boarding facility I've come across in Fort Colins. Everyone is friendly and welcoming and the facilities are just as great. Bounced back and forth to a couple of barns and happy to find a place that I feel completely comfortable at! Would highly recommend it!
+              Taft Hill Acres has been the best boarding facility I've come across in Fort Collins. Everyone is friendly and welcoming and the facilities are just as great. Bounced back and forth to a couple of barns and happy to find a place that I feel completely comfortable at! Would highly recommend it!
             </h4>
             <h2 className="section-heading mb-4">
               <span className="text-primary section-heading-upper">~August</span>

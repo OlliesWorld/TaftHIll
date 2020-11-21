@@ -31,7 +31,7 @@ const IndexPage = () => (
         <div className="product-item-description d-flex mr-auto">
           <div className="bg-faded p-2 rounded">
             <p className="mb-0 paragraph">
-              Cayla is an Event rider and Trainer, and has been teaching/training in Fort Collins since 2007. Cayla has a particular love and interest in promoting Mustangs in the english riding disciplines and has become well-known as a Mustang trainer. She is a graduate of the CSU Equine Science program, a two-time finalist in the Extreme Mustang Makeover Competition, an established TIP trainer, and Eventing Trainer. Over the last six years, Cayla has trained or assisted in the training of over 50 Mustangs. This is a huge feat given that she only has one or two in training at any given time! Cayla believes that the more awareness she can bring to the versatility of the breed, the more adoptable these horses will become. Cayla shows her 2016 Mustang Makeover 5th place finisher, Atalanta in Eventing and won 10th place at the 2018 American Eventing Championships. Cayla also won the overall award for best adult pony rider.
+              Cayla is an Event rider and trainer, and has been teaching/training in Fort Collins since 2007. Cayla has a particular love and interest in promoting Mustangs in the English riding disciplines and has become well-known as a Mustang trainer. She is a graduate of the CSU Equine Science program, a two-time finalist in the Extreme Mustang Makeover Competition, an established TIP trainer, and Eventing trainer. Over the last six years, Cayla has trained, or assisted in the training of, over 50 Mustangs. This is a huge feat given that she only has one or two in training at any given time! Cayla believes that the more awareness she can bring to the versatility of the breed, the more adoptable these horses will become. Cayla shows her 2016 Mustang Makeover 5th place finisher, Atalanta, in Eventing and won 10th place at the 2018 American Eventing Championships. Cayla also won the overall award for best adult pony rider.
               </p>
           </div>
 
@@ -64,7 +64,7 @@ const IndexPage = () => (
           />
           <div className="product-item-description d-flex ml-auto">
             <div className="bg-faded p-3 rounded">
-              <p className="mb-0 paragraph">Taft Hill Acres is pleased to host Wild Rose Mustang Advocacy Group. Wild Rose believes that every adoptable Mustang off the range should receive excellent healthcare and individualized training to find their forever home.
+              <p className="mb-0 paragraph">Taft Hill Acres is pleased to host Wild Rose Mustang Advocacy Group. Wild Rose believes that every adoptable, off the range Mustang should receive excellent healthcare and individualized training to find their forever home.
               </p>
               <br />
               <p className="mb-0 paragraph">

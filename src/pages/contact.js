@@ -15,7 +15,7 @@ const ContactPage = () => (
                         <ContactFormPage />
                     </div>
                 </div>
-                <div className="d-flex mr-auto">
+                <div className="blue d-flex mr-auto">
                     <div className="bg-faded p-5  ml-2  rounded">
                         <p className="mb-0 paragraph">
                             We are conveniently located within 2 miles of CSU, and Old Town. There is direct access to the Poudre Trail and close access to Lory State Park and Reservoir Ridge.
@@ -26,9 +26,7 @@ const ContactPage = () => (
 
             </div>
         </section>
-        <div>
-
-        </div>
+    
         <div className="min-vw-100 text-center p-2 rounded">
             <p className="mb-3 blue">
                 1012 N Taft Hill Rd <br />

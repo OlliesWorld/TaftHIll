@@ -55,7 +55,7 @@ const IndexPage = () => (
               <li>Free Choice Hay</li>
               <li>Bayco Fencing</li>
               <li>Automatic Waters</li>
-              <li>Individual and group pen options</li>
+              <li>Individual and Group Pen Options</li>
             </ul>
           </div>
         </div>
@@ -73,12 +73,12 @@ const IndexPage = () => (
         <div className="product-item-description d-flex ml-auto">
           <div className="bg-faded p-3 rounded">
             <ul className="facility">
-              <li>Multiple locking tack rooms</li>
-              <li>Indoor grooming area</li>
-              <li>Outdoor wash rack</li>
+              <li>Multiple Locking Tack Rooms</li>
+              <li>Indoor Grooming Area</li>
+              <li>Outdoor Wash Rack</li>
               <li>Bathroom</li>
               <li>Trailer Parking</li>
-              <li>Automatic entry gate</li>
+              <li>Automatic Entry Gate</li>
             </ul>
           </div>
         </div>

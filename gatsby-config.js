@@ -4,6 +4,7 @@ module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
+    siteUrl: `https://www.tafthillacres.com`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -22,5 +23,7 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
     `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-sitemap`,
+     
   ],
 };

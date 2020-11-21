@@ -84,7 +84,7 @@ const NameForm = (props) => {
             <input
                 className='Button Form--SubmitButton'
                 type='submit'
-                value='Contact'
+                value='contact'
             />
         </form>
     );

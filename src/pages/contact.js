@@ -1,18 +1,19 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import ContactFormPage from '../components/Form';
+// import ContactFormPage from '../components/Form';
 
-
+import ContactForm from '../components/contact_form';
 
 const ContactPage = () => (
     <Layout activeLink="contact">
+      
         <section className="page-section mt-0">
             <div className="form-cont">
                 <div className="mr-auto">
                     <div className=" p-1 rounded">
-
-                        <ContactFormPage />
+                    <ContactForm />
+                        {/* <ContactFormPage /> */}
                     </div>
                 </div>
                 <div className="blue d-flex mr-auto">

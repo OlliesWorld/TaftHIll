@@ -1,4 +1,4 @@
-.Form {
+form {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -16,26 +16,27 @@
   padding: 10px;
 }
 @media (min-width: 600px) {
-  .Form {
-    margin: 50px 0 0 590px;
+  form {
+    /* margin: 50px 0 0 650px; */
+    margin: 5rem auto;
   }
   .Form--Title {
     font-size: 3rem;
   }
 }
 .Form > * + * {
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
 }
 
-.Form--Group {
+/* .Form--Group {
   position: relative;
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
-}
+} */
 
-.Form--Group .Form--Label {
+.Form--Label {
   width: calc(50% - 1rem);
 }
 
@@ -47,16 +48,18 @@
   position: relative;
   z-index: 1;
   background: var(--white);
+  opacity: 40%;
+  margin: .5rem .3rem;
 }
 
-.Form--Label > span {
+/* .Form--Label > span {
   position: absolute;
   left: 2rem;
   top: 1.5rem;
   transition: 0.3s ease all;
   opacity: 0.8;
   z-index: -1;
-}
+} */
 
 .Form--Input {
   font-family: inherit;
@@ -127,7 +130,7 @@
 
 .Form--Input:focus {
   outline: none;
-  border-color: black;
+  border: 5px solid #ffcc00;
 }
 
 .Form--Input[disabled],
@@ -136,13 +139,14 @@
   /* pointer-events: none; */
   cursor: progress;
   background: #ffcc00;
-  border-color: darken(#1b2911, 10%);
+  border-color: darken(#ffcc00, 10%);
   border-radius: 0.25rem;
   padding: 10px 15px;
   width: 200px;
 }
 .Form--SubmitButton:hover {
   color: white;
+  background: #1b2911;
   padding: 15px 25px;
   text-decoration: none;
 }

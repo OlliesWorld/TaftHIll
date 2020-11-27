@@ -2,7 +2,8 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-// import arena from '../assets/images/arena.jpg'
+import ScrollUpButton from "react-scroll-up-button";
+
 import jump from '../assets/images/jumps.jpg'
 import pen from '../assets/images/Pen.jpg'
 import breeze from '../assets/images/breezeway.jpg'
@@ -11,6 +12,7 @@ import wash from '../assets/images/washrack.jpg'
 
 const IndexPage = () => (
   <Layout activeLink="facility">
+        <ScrollUpButton />
     <section className="page-section">
       <div className="container">
         <div className=" d-flex">

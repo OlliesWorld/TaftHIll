@@ -3,10 +3,11 @@ import HeroSlider from '../components/heroSlider';
 
 import Layout from '../components/Layout';
 
-// import arena from '../assets/images/arena.jpg';
+
 
 const IndexPage = () => (
   <Layout activeLink="home">
+
     <section className="page-section clearfix">
       <div className="container">
         <div aria-label="introduction" className="intro">

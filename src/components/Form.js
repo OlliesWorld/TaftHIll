@@ -26,7 +26,7 @@ const NameForm = (props) => {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({
-                "form-name": event.target.getAttribute("contact"),
+                "form-name": event.target.getAttribute("Contact"),
                 ...name
             })
         })

@@ -33,6 +33,7 @@
         "react-images": "^1.1.0",
         "react-markdown": "^5.0.2",
         "react-photo-gallery": "^8.0.0",
+        "react-scroll-up-button": "^1.6.4",
         "react-scrollspy": "^3.4.2",
         "smoothscroll-polyfill": "^0.4.4",
         "swiper": "^6.3.5"

@@ -26,7 +26,7 @@ const NameForm = (props) => {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({
-                "form-name": event.target.getAttribute("message"),
+                "form-name": event.target.getAttribute("contact"),
                 ...name
             })
         })
@@ -39,7 +39,7 @@ const NameForm = (props) => {
     return (
 
         <form
-            name="message"
+            name="Contact"
             method="POST"
             data-netlify-recaptcha="true"
             data-netlify="true"
@@ -80,11 +80,11 @@ const NameForm = (props) => {
             </label>
             <input type='text' name='_gotcha' style={{ display: 'none' }} />
             {/* {!!subject && <input type='hidden' name='subject' value={subject} />} */}
-            <input type='hidden' name='form-name' value={name} />
+            <input type='hidden' name='Contact' value={name} />
             <input
                 className='Button Form--SubmitButton'
                 type='submit'
-                value="message"
+                value='Contact'
             />
         </form>
     );

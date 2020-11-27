@@ -26,7 +26,7 @@ const NameForm = (props) => {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({
-                "form-name": event.target.getAttribute("contact"),
+                "form-name": event.target.getAttribute("message"),
                 ...name
             })
         })
@@ -39,8 +39,8 @@ const NameForm = (props) => {
     return (
 
         <form
-            name="contact"
-            method="post"
+            name="message"
+            method="POST"
             data-netlify-recaptcha="true"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
@@ -84,7 +84,7 @@ const NameForm = (props) => {
             <input
                 className='Button Form--SubmitButton'
                 type='submit'
-                value='contact'
+                value="message"
             />
         </form>
     );

@@ -41,14 +41,14 @@ form {
 }
 
 .Form--Label {
-  width: 100%;
+  width: 93%;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   position: relative;
   z-index: 1;
-  background: var(--white);
-  opacity: 85%;
+  
+  opacity: 3;
   margin: .5rem .3rem;
 }
 
@@ -69,7 +69,7 @@ form {
   margin: 0;
   border: 1px solid #bababa;
   padding: 1rem 2rem;
-  border-radius: var(--borderRadius);
+  color:  #1b2911;
   line-height: 1.25em;
   transition: border-color 0.2s;
   resize: none;
@@ -100,10 +100,10 @@ form {
   border-color: var(--danger);
 }
 
-.Form--Select {
+/* .Form--Select {
   background: none;
   appearance: none;
-}
+} */
 
 .Form--Label.has-arrow:after {
   content: '';
@@ -143,6 +143,7 @@ form {
   border-radius: 0.25rem;
   padding: 10px 15px;
   width: 200px;
+  
 }
 .Form--SubmitButton:hover {
   color: white;
@@ -151,7 +152,7 @@ form {
   text-decoration: none;
 }
 .Form--Input::placeholder {
-  color: #364958;
+  color: whitesmoke;
 }
 
 .Form--Alert {

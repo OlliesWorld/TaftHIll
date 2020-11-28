@@ -22,7 +22,7 @@ const ContactForm = () => {
       <NetlifyForm className="Form" formName="Contact" formValues={formValues} postSubmit={postSubmit} >
         <label htmlFor="nameInput" className="Form--Title">Send us a Message</label>
         <div className='Form--Label'>
-         <input placeholder='name' className='Form--Input' type="text" name="name" value={formValues.name} onChange={handleChange} required />
+         <input placeholder='Name' className='Form--Input' type="text" name="name" value={formValues.name} onChange={handleChange} required />
         </div>
         <div className='Form--Label'>
           <input className='Form--Input'  type='email'
@@ -30,7 +30,7 @@ const ContactForm = () => {
                     name='email' value={formValues.email} onChange={handleChange} required />
         </div>
         <div className='Form--Label'>
-         <textarea name="message" className='Form--Input Form--Textarea'
+         <textarea className='Form--Input Form--Textarea'
                     placeholder='Message'
                     name='message'
                     rows='8' value={formValues.message} onChange={handleChange} required />

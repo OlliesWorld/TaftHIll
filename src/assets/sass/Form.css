@@ -48,7 +48,7 @@ form {
   position: relative;
   z-index: 1;
   background: var(--white);
-  opacity: 60%;
+  opacity: 75%;
   margin: .5rem .3rem;
 }
 

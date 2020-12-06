@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#1b2911',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/tafthorse.svg',
-  pathPrefix: `https://tafthillacres.netlify.app/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/gatsby-starter-casual/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Fort Collins Horse Boarding Facility',
   subHeading: 'Happy and healthy horses are our priority',
 };

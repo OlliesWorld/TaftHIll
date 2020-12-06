@@ -66,7 +66,7 @@ export const photos = [
         src: "/assets/riders.jpg",
         width: 2,
         height: 3,
-        alt: "Meg riding palimino horse and Anna riding bay horse in the arena"
+        alt: "Meg riding palimino horse and Anna riding bay horse in sand arena"
     },
     {
         src: "/assets/parking.jpg",
@@ -90,12 +90,18 @@ export const photos = [
         src: "/assets/field.jpg",
         width: 4,
         height: 3,
-        alt: "Looking across field at the changing leaves near our our boarding facility"
+        alt: "Trails close to our horse boarding facility"
     },
     {
-        src: "/assets/rainingleaves.jpg",
+        src: "/assets/haybarn.jpg",
         width: 3,
         height: 3,
-        alt: "Leaves covering the ground at the barn and treats for the horses"
+        alt: "Horse Boarding Facility in Fort Collins with Barn full of Hay"
+    },
+    {
+        src: "/assets/Mustangle.jpg",
+        width: 2,
+        height: 3,
+        alt: "Mustang Angel at Fort Collins Horse Boarding Facility"
     }
 ];

@@ -11,9 +11,9 @@ const IndexPage = () => (
     <section arial-label="About Taft Hill Acres" className="page-section about-heading">
       <div className="container">
         <img
-          className="sliderimg img-fluid mb-1 mb-lg-0 rounded"
+          className="mx-auto d-flex contact-img"
           src={bridge}
-          alt="Looking at main barn across bridge"
+          alt="Looking at main barn across bridge and sand arena"
         />
         <div className="about-heading-content">
           <div className="row">
@@ -21,24 +21,31 @@ const IndexPage = () => (
               <div className="bg-faded rounded p-3">
                 <h2 className="section-heading mb-4">
                   <span className="section-heading-upper">
-                    Healthy & Happy
+                    The Basics
                   </span>
                   <span className="section-heading-lower">About</span>
                 </h2>
                 <p className="mb-3">
-                  Most horses at Taft Hill Acres live in herds of 2 to 5 horses. All horses have free access to high quality grass hay, automatic heated waterers, and adequate shelter. All pens have safe Bayco fencing and are cleaned daily. We pride ourselves on having one of the cleanest horse farms on the Front Range.  We use Haychix slow feed nets and hay is fed from Hayhut feeders to ensure hay is fresh and dry at all times. Free feeding horses is ideal because horses can graze all day as nature intended, but it also cuts down greatly on negative herd interactions. The horses are happy and peaceful in their herds at our Fort Collins boarding facility.
-                </p>
-                <p className="mb-3">
-                  Taft Hill Acres provides partial and full care options, to meet individual’s needs. All horses regardless of board option are cared for and overseen by the farm. We have approximately 3 acres of grass for turnout and have options for turnout, blanketing and grain services. We provide group  pens as well as a limited number of individual runs. </p>
+                Most horses at Taft Hill live in herds of 2 to 5. However, we do offer a limited number of individual runs. The herds are free fed, with 24/7 access to high quality grass hay, as well as heated automatic waterers, and adequate shelter. Access to free choice hay is ideal because it allows the horses to graze all day as nature intended, and it  greatly reduces the number of negative herd interactions. We make sure that only fresh, dry hay is being fed by utilizing Haychix slow feed nets and Hayhut feeders. Our fencing consists of Bayco or wood post and rail. For the horses residing in our individual runs, feeding can be customized, to some extent, to suit their needs. Both the group pens and individual runs are cleaned daily. We take pride in being one of the cleanest facilities on the Front Range.
 
-                <p className="mb-3">
-                  Fort Collins has one of the best bike/equestrian trail systems on the front range. Taft Hill Acres has direct access to the trail system. You can actually ride your horse to Old Town if you want! Several remote riding opportunities are available with just a short trailer drive.
                 </p>
-              </div>
+                
+                </div>
+                </div>
+            <div className="col-xl-9 col-lg-10 mt-4 mx-auto">
+              <div className="bg-faded rounded p-3">
+                <h2 className="section-heading mb-4">
+                  <span className="section-heading-upper">
+                    Beyond Basics
+                  </span>
+                  </h2>
+                  <p className="mb-3">
+                  Taft Hill provides a few optional services beyond the basics. From blanketing and grain services, to turn-out services on our 3 acre pasture, a care plan can be created that meets your individual needs. While we would love to take credit for everything that makes our facility great, part of its charm comes from our location. Fort Collins has one of the best multi-purpose trail systems in Colorado and we are luckily enough to have direct access to this system. This means trail riding without trailering.
+                </p>
             </div>
           </div>
         </div>
-        
+        </div>
       </div>
     </section>
     <section aria-label="Grid gallery of variety of horse and landscapes">

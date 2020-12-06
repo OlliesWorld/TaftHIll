@@ -3,9 +3,10 @@ import React from 'react';
 import Layout from '../components/Layout';
 import ScrollUpButton from "react-scroll-up-button";
 
-import cayla from '../assets/images/cayla.jpg';
-import caylacross from '../assets/images/caylacross.jpg';
-import wrlogo from '../assets/images/wr_logo_web.png';
+import Cayla from '../assets/images/cayla.jpg';
+import Caylacross from '../assets/images/caylacross.jpg';
+import Wrlogo from '../assets/images/wr_logo_web.png';
+import Temple from '../assets/images/temple.jpg';
 
 const IndexPage = () => (
   <Layout activeLink="training">
@@ -26,7 +27,7 @@ const IndexPage = () => (
         </div>
         <img
           className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
-          src={caylacross}
+          src={Caylacross}
           alt="Cayla Stone jumping mustag over cross country jump"
         />
         <div className="product-item-description d-flex mr-auto">
@@ -59,7 +60,7 @@ const IndexPage = () => (
           </div>
           <img
             className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
-            src={cayla}
+            src={Cayla}
             alt="Cayla Stone free rein on trained mustang"
             
           />
@@ -76,7 +77,7 @@ const IndexPage = () => (
 
                   <img
                     className="wr-logo"
-                    src={wrlogo}
+                    src={Wrlogo}
                     alt="Wild Rose Mustang Advocacy Group Logo"
                   />
                 </a>
@@ -88,7 +89,50 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
+    <section className="page-section">
+      <div className="container">
+        <div className="product-item">
+          <div className="product-item-title d-flex">
+            <div className="bg-faded p-3 d-flex mr-auto rounded">
+              <h2 className="section-heading mb-0">
+                <span className="section-heading-upper">
+                  Wild Rose Mustang Advocacy Group
+                </span>
 
+                <span className="section-heading-lower">
+                  Important News!
+                </span>
+              </h2>
+            </div>
+          </div>
+          <img
+            className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+            src={Temple}
+            alt="Temple Granding working with Wild Rose Mustangs trained mustang program"
+            
+          />
+          <div className="product-item-description d-flex ml-auto">
+            <div className="bg-faded p-3 rounded">
+              <p className="mb-0 paragraph">WRMAGIC has some exciting news coming in 2021! We will be partnering with CSU Equine Behavior Instructor, Sarah Matlock, supported by the renowned, Temple Grandin, to conduct an in-depth study on mustang gentling techniques! 12 unhandled mustangs will be involved in a behavior study where our trainers will be gentling them with one of two methods: traditional 'pressure-release' or the combination of traditional methods with the addition of positive reinforcement via clicker training. Our hope is to establish 'Best Practices' for mustang gentling in order to minimize the stresses they experience during training. We've received a generous donation from Temple Grandin, but still need help with this large undertaking, so stay tuned for ways you can help! Most of the horses used in the study will be available for adoption as well. More info to come!
+              </p>
+           
+              <div className="mt-2 text-center">
+                <a className="btn" href="https://www.wildrosemagic.org/" target="/">
+
+                  <img
+                    className="wr-logo"
+                    src={Wrlogo}
+                    alt="Wild Rose Mustang Advocacy Group Logo"
+                  />
+                </a>
+                <p className="mx-5 px-1 option-three"> Click for More Information</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
   </Layout >

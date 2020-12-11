@@ -13,7 +13,7 @@ import isopen from '../assets/images/ISOpen.jpg'
 export default function Slider() {
   return (
     <div arial-label="Testimonials about Taft Hill Acres" className="Slider">
-      <AliceCarousel autoPlay autoHeight infinite autoPlayInterval="4000">
+      <AliceCarousel autoPlay autoHeight infinite autoPlayInterval="5000">
         <div className="intro-text left-0 text-center bg-faded p-2 rounded">
           <h4 className="mb-3">
             The horses here are so happy and so well taken care of! My old mare was really struggling at her old barn. I was on the waitlist for Taft Hill and Meg was able to find us a spot to get my old lady into a better situation. Since moving, she is acting like a completely different horse. She is bright, interested in her surroundings, and acting like herself again. I am so thankful to have her at Taft Hill Acres and highly recommend the barn!

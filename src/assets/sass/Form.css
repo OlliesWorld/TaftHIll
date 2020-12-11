@@ -84,6 +84,7 @@ form {
 .Form--InputText:focus {
   padding-bottom: 0.5rem;
   padding-top: 2.5rem;
+  
 }
 
 .Form--InputText:valid + span,
@@ -94,6 +95,7 @@ form {
   top: 0;
   left: 0.5rem;
   font-size: 1.2rem;
+  
 }
 
 .Form--Input:required:invalid:not(:empty) {
@@ -130,7 +132,7 @@ form {
 
 .Form--Input:focus {
   outline: none;
-  border: 5px solid #ffcc00;
+  border: 5px solid 	#1b2911;
 }
 
 .Form--Input[disabled],
@@ -254,4 +256,9 @@ form {
 .Form--CheckboxInput:checked + span::after {
   opacity: 1;
   transform: scale(1);
+}
+.Form--Textarea:focus, 
+.Form--Input:focus {
+  background: #6b6b44;
+  opacity: 80%;
 }

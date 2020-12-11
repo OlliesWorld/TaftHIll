@@ -1,6 +1,6 @@
-#Taft Hill Acres Website
-A Gatsby Site using template:
-# gatsby-starter-casual
+
+A Gatsby Site template
+# Taft Hill Acres Website
 
 This site was developed to help current and new boarder find information about Taft Hill Acres.
 

@@ -20,7 +20,7 @@ const IndexPage = () => (
             <span className="section-heading-lower">Happy and Healthy Horses</span>
           </h2>
           <p className="mb-0 paragraph">
-          Happy and healthy horses have been the number one priority for Megan and Rene Lizarrage ever since the founding of Taft Hill Acres in 2012. A spacious, yet comfortable 10 acre boarding facility -- Taft Hill Acres is conveniently located 10 minutes north-west of the main CSU campus.
+          Happy and healthy horses have been the number one priority for Megan and Rene Lizarraga ever since the founding of Taft Hill Acres in 2012. A spacious, yet comfortable 10 acre boarding facility -- Taft Hill Acres is conveniently located 10 minutes north-west of the main CSU campus.
           </p>
           <br />
           <p className="mb-0 paragraph">

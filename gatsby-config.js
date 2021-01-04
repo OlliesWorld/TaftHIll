@@ -1,4 +1,5 @@
 const config = require('./config');
+require('dotenv').config();
 
 module.exports = {
   pathPrefix: config.pathPrefix,
@@ -8,6 +9,12 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_IT,
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

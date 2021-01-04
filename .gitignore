@@ -1,9 +1,9 @@
 # Project dependencies
 .cache
 node_modules
-yarn-error.log
+.env
 package-lock.json
-yarn.lock
+
 
 # Build directory
 /public

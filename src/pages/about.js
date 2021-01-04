@@ -25,7 +25,7 @@ const IndexPage = () => (
                   </span>
                   <span className="section-heading-lower">About</span>
                 </h2>
-                <p className="mb-3">
+                <p className="mb-3 paragraph">
                 Most horses at Taft Hill live in herds of 2 to 5. However, we do offer a limited number of individual runs. The herds are free fed, with 24/7 access to high quality grass hay, as well as heated automatic waterers, and adequate shelter. Access to free choice hay is ideal because it allows the horses to graze all day as nature intended, and it  greatly reduces the number of negative herd interactions. We make sure that only fresh, dry hay is being fed by utilizing Haychix slow feed nets and Hayhut feeders. Our fencing consists of Bayco or wood post and rail. For the horses residing in our individual runs, feeding can be customized, to some extent, to suit their needs. Both the group pens and individual runs are cleaned daily. We take pride in being one of the cleanest facilities on the Front Range.
 
                 </p>
@@ -39,7 +39,7 @@ const IndexPage = () => (
                     Beyond Basics
                   </span>
                   </h2>
-                  <p className="mb-3">
+                  <p className="mb-3 paragraph">
                   Taft Hill provides a few optional services beyond the basics. From blanketing and grain services, to turn-out services on our 3 acre pasture, a care plan can be created that meets your individual needs. While we would love to take credit for everything that makes our facility great, part of its charm comes from our location. Fort Collins has one of the best multi-purpose trail systems in Colorado and we are luckily enough to have direct access to this system. This means trail riding without trailering.
                 </p>
             </div>

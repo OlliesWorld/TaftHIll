@@ -12,9 +12,12 @@
     },
     "dependencies": {
         "@react-yuki/ui": "0.0.38",
+        "dotenv": "^8.2.0",
         "gatsby": "^2.25.3",
         "gatsby-cli": "^2.14.1",
         "gatsby-plugin-dark-mode": "^1.1.2",
+        "gatsby-plugin-google-analytics": "^2.8.0",
+        "gatsby-plugin-google-gtag": "^2.5.0",
         "gatsby-plugin-manifest": "^2.5.2",
         "gatsby-plugin-netlify-cms": "^4.3.17",
         "gatsby-plugin-offline": "^3.3.2",

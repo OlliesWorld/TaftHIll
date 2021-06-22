@@ -23,7 +23,7 @@ export default function Slider() {
           </h2>
           <div className="intro-text left-0 text-center bg-secondary p-1 rounded">
             <h4 className="text-primary mt-5 mb-3">
-              Such a wonderful and friendly horse enviroment. It's been such a pleasure to board here. The property is always clean and very mellow and everyone is so friendly!
+              Such a wonderful and friendly horse environment. It's been such a pleasure to board here. The property is always clean and very mellow and everyone is so friendly!
           </h4>
             <h2 className="section-heading mb-4">
               <span className=" text-primary section-heading-upper">~Jenna</span>

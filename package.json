@@ -11,6 +11,7 @@
         "email": "anubhav.srivastava00@gmail.com"
     },
     "dependencies": {
+        "@netlify/plugin-lighthouse": "^1.4.2",
         "@react-yuki/ui": "0.0.38",
         "dotenv": "^8.2.0",
         "gatsby": "^2.25.3",

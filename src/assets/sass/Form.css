@@ -59,7 +59,7 @@ form {
   resize: none;
   width: 100%;
   transition: 0.3s ease all;
-  background: #6b6b44;
+  background-color: #6b6b44;
 }
 
 .Form--InputText:valid,
@@ -159,7 +159,7 @@ form {
 
 .Form--Textarea:focus, 
 .Form--Input:focus {
-  background: #6b6b44;
+  background-color: #6b6b44;
   opacity: 80%;
 }
 .Form--Textarea {

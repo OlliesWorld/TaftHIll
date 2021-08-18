@@ -28,13 +28,6 @@ form {
   margin-top: 2.5rem;
 }
 
-/* .Form--Group {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
-} */
 
 .Form--Label {
   width: calc(50% - 1rem);
@@ -52,30 +45,22 @@ form {
   margin: .5rem .3rem;
 }
 
-/* .Form--Label > span {
-  position: absolute;
-  left: 2rem;
-  top: 1.5rem;
-  transition: 0.3s ease all;
-  opacity: 0.8;
-  z-index: -1;
-} */
-
 .Form--Input {
   font-family: inherit;
+  font-size: 2rem;
   flex-grow: 1;
   box-sizing: border-box;
   display: block;
   margin: 0;
   border: 1px solid #bababa;
   padding: 1rem 2rem;
-  color:  #1b2911;
+  color:  white;
   line-height: 1.25em;
   transition: border-color 0.2s;
   resize: none;
   width: 100%;
   transition: 0.3s ease all;
-  background: transparent;
+  background: #6b6b44;
 }
 
 .Form--InputText:valid,

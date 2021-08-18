@@ -106,11 +106,6 @@ form {
 
 .Form--Input:focus {
   outline: none;
-  border-color: black;
-}
-
-.Form--Input:focus {
-  outline: none;
   border: 5px solid	#1b2911;
 }
 
@@ -163,5 +158,5 @@ form {
   opacity: 80%;
 }
 .Form--Textarea {
-  background: #6b6b44;
+  background-color: #6b6b44;
 }

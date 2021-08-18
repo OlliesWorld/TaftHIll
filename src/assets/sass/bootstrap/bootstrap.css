@@ -1978,10 +1978,10 @@ pre code {
   }
 }
 
-.form-control::-ms-expand {
+/* .form-control::-ms-expand {
   background-color: transparent;
   border: 0;
-}
+} */
 
 .form-control:focus {
   color: #495057;
@@ -2063,7 +2063,7 @@ select.form-control:focus::-ms-value {
   margin-bottom: 0;
   line-height: 1.5;
   color: #212529;
-  background-color: transparent;
+  /* background-color: transparent; */
   border: solid transparent;
   border-width: 1px 0;
 }
@@ -4155,7 +4155,7 @@ input[type='button'].btn-block {
   width: 100%;
   height: calc(1rem + 0.4rem);
   padding: 0;
-  background-color: transparent;
+  /* background-color: transparent; */
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -4275,7 +4275,7 @@ input[type='button'].btn-block {
   height: 0.5rem;
   color: transparent;
   cursor: pointer;
-  background-color: transparent;
+  /* background-color: transparent; */
   border-color: transparent;
   border-width: 0.5rem;
 }

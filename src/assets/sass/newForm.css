@@ -36,6 +36,10 @@ form {
         width: 100%;
     }
 }
+.Form--Input::placeholder {
+    color: whitesmoke;
+  }
+  
 .NForm--SubmitButton {
     cursor: pointer;
     background: #ffcc00;

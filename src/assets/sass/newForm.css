@@ -4,5 +4,24 @@
     
 }
 .NForm--Title {
+    background: #6b6b44;
+  color: #1b2911;
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 1.5rem auto;
+  padding: 10px;
+}
+
+.NForm--Input {
+    background: #6b6b44;
     color: white;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 2px solid #bababa;
+}
+
+.NForm--SubmitButton {
+    cursor: progress;
+    background: #ffcc00;
+    font-size: 1.5rem;
 }

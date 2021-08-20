@@ -49,7 +49,7 @@ const NewContactForm = (props) => {
         <textarea className='NForm--Input BForm--Textarea' placeholder='Message' name='message' rows='8'  onChange={handleChange} required />
          
             <div>
-              <button className='NButton BForm--SubmitButton' type='submit' >Contact Us</button>
+              <button className='NForm--SubmitButton' type='submit' >Contact Us</button>
             </div>
          
         </form>

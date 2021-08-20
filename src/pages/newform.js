@@ -39,17 +39,17 @@ const NewContactForm = (props) => {
   };
 
   return (
-    <div className="Form">
+    <div className="NForm">
     <form data-netlify="true" action="/" name="contactUs" method="post" onSubmit={handleSubmit}>
-     <label htmlFor="nameInput" className="Form--Title">Send us a Message</label>
+     <label htmlFor="nameInput" className="NForm--Title">Send us a Message</label>
       <input type="hidden" name="form-name" value="contact-form" />
      
-        <input className='Form--Input' name="Name" type="text" onChange={handleChange} required placeholder="Name"  />
-        <input className='Form--Input' type='email' placeholder='Email' name='email' onChange={handleChange} required />
-        <textarea className='Form--Input Form--Textarea' placeholder='Message' name='message' rows='8'  onChange={handleChange} required />
+        <input className='NForm--Input' name="Name" type="text" onChange={handleChange} required placeholder="Name"  />
+        <input className='NForm--Input' type='email' placeholder='Email' name='email' onChange={handleChange} required />
+        <textarea className='NForm--Input BForm--Textarea' placeholder='Message' name='message' rows='8'  onChange={handleChange} required />
          
             <div>
-              <button className='Button Form--SubmitButton' type='submit' >Contact Us</button>
+              <button className='NButton BForm--SubmitButton' type='submit' >Contact Us</button>
             </div>
          
         </form>

@@ -1,4 +1,8 @@
 .Form {
     display: grid;
     grid-template-columns: auto;
+    
+}
+.NForm--Title {
+    color: white;
 }

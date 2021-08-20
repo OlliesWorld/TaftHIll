@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 // import ContactFormPage from '../components/Form';
 
-import ContactForm from '../components/contact_form';
+import NewContactForm from '../components/newform';
 
 const ContactPage = () => (
     <Layout activeLink="contact">
@@ -12,7 +12,7 @@ const ContactPage = () => (
             <div className="form-cont">
                 <div className="mr-auto">
                     <div className=" p-1 rounded">
-                    <ContactForm />
+                    <NewContactForm />
                         {/* <ContactFormPage /> */}
                     </div>
                 </div>

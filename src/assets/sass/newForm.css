@@ -1,27 +1,54 @@
-.Form {
-    display: grid;
-    grid-template-columns: auto;
+form {
+    display: flex;
+    flex-direction: column;
+   
     
 }
+
 .NForm--Title {
     background: #6b6b44;
-  color: #1b2911;
-  font-size: 2rem;
-  font-weight: 900;
-  margin: 1.5rem auto;
-  padding: 10px;
+    color: #1b2911;
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 1.5rem auto;
+    padding: 10px;
 }
 
 .NForm--Input {
-    background: #6b6b44;
+    background: rgba(107,107,68,0.8);
+    opacity: 2;
     color: white;
     padding: 1rem;
-    margin: 1rem 0;
+    margin: 1rem auto;
     border: 2px solid #bababa;
+    width: 30%;
+    
 }
+@media (max-width: 800px) {
+    .NForm--Input {
 
-.NForm--SubmitButton {
-    cursor: progress;
-    background: #ffcc00;
-    font-size: 1.5rem;
+        width: 50%;
+    }
 }
+@media (max-width: 600px) {
+    .NForm--Input {
+
+        width: 100%;
+    }
+}
+.NForm--SubmitButton {
+    cursor: pointer;
+    background: #ffcc00;
+    border: #1b2911;
+    font-size: 1.5rem;
+    margin: 0 auto 1rem auto;
+}
+.NForm--SubmitButton:hover {
+    /* background-color: #1b2911; */
+    color: white;
+}
+.NForm--SubmitButton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }

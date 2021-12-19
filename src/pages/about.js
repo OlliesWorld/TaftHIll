@@ -7,7 +7,7 @@ import bridge from '../assets/images/bridgearena.jpg'
 
 
 const IndexPage = () => (
-  <Layout activeLink="about">
+  <Layout k="about">
     <section arial-label="About Taft Hill Acres" className="page-section about-heading">
       <div className="container">
         <img
